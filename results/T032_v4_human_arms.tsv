@@ -1,0 +1,6 @@
+arm	n	human	lo	hi	judge_same_items
+closed	30	2.4	1.967	2.833	3.0
+closed_tt_self	30	2.667	2.2	3.133	3.244
+rag_naive	30	3.833	3.3	4.333	4.311
+rag_tt_nllb	30	2.533	2.067	3.033	3.011
+agent_full	30	3.333	2.7	3.933	3.5

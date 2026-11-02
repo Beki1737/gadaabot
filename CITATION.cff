@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use GadaaBot, please cite the paper."
+title: "GadaaBot 2.0: native Afaan Oromoo retrieval-augmented question answering"
+authors:
+  - name: "Beka"
+license: Apache-2.0

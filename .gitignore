@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+models/
+qdrant/
+logs/
+*.sqlite
+.env

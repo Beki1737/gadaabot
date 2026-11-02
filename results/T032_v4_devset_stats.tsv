@@ -1,0 +1,10 @@
+domain	source	candidates	kept	keep_pct
+education	oeb	37	30	81.1
+education	textbooks	44	30	68.2
+education	webdomain	49	23	46.9
+encyclopedia	wikipedia	56	30	53.6
+health	mdh	43	35	81.4
+health	oeb	19	13	68.4
+health	tico19	31	20	64.5
+health	webdomain	85	42	49.4
+all	all	364	223	61.3

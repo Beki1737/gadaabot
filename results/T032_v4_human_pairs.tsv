@@ -1,0 +1,11 @@
+a	b	n	diff	lo	hi	p	wins	ties	losses	p_holm	subset
+rag_naive	closed	30	1.433	0.767	2.033	0.0	21	7	2	0.0	all
+rag_naive	rag_tt_nllb	30	1.3	0.567	1.967	0.0005	19	7	4	0.002	all
+closed	closed_tt_self	30	-0.267	-0.667	0.067	0.173	7	12	11	0.346	all
+agent_full	rag_naive	30	-0.5	-1.0	-0.067	0.034	4	16	10	0.102	all
+rag_tt_nllb	closed	30	0.133	-0.533	0.8	0.7355	12	8	10	0.7355	all
+rag_naive	closed	17	1.353	0.353	2.235	0.0145	13	2	2	0.058	kept
+rag_naive	rag_tt_nllb	17	1.529	0.824	2.235	0.0	12	4	1	0.0	kept
+closed	closed_tt_self	17	-0.471	-1.059	0.059	0.113	3	7	7	0.339	kept
+agent_full	rag_naive	17	-0.294	-0.882	0.235	0.404	3	9	5	0.808	kept
+rag_tt_nllb	closed	17	-0.176	-1.118	0.706	0.73	7	3	7	0.808	kept

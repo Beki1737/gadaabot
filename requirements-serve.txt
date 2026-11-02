@@ -1,0 +1,4 @@
+vllm>=0.8
+fastapi>=0.115
+uvicorn>=0.30
+python-telegram-bot>=21

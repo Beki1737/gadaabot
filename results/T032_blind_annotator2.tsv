@@ -1,0 +1,151 @@
+row	correct_1to5	notes
+1	4	Correct core (ask doctor/nurse, free meds); misses HIV-test point
+2	3	Generic 'see health worker'; no HIV-test point
+3	3	Useful adherence info but calls TB a virus and uses 'vaccine'; no HIV-test point
+4	4	Core correct (ask doctor/nurse), muddled phrasing; no HIV-test point
+5	4	Accurate (testing, 4-drug regimen, DOT, free programs); no HIV-test point; truncated
+6	1	Only repeats the question
+7	1	Only repeats the question
+8	3	Matches cluster/117/two curricula details but says 'month 1' not quarter 1; extra names unverifiable
+9	1	Says it has no info, then generic hypothetical
+10	1	Generic template, no facts about this review
+11	4	Jan 23 Wuhan cordon, 15 cities, 57M, car ban, closures all correct; no Xi 'people's war'
+12	3	Generic measures, none of the specifics
+13	5	All reference points plus Huoshenshan/Leishenshan; 'curfew' should be cordon
+14	5	All reference points plus hospitals, closures
+15	3	Generic measures, none of the specifics
+16	3	Definitions right but lists 2,4,6,8 as repeating; garbled repeated text at end
+17	5	
+18	5	
+19	3	Concept right, examples garbled
+20	4	Correct; growing examples a bit loose
+21	1	Says cases rose sharply; reference says decreased but still high
+22	1	No-info response
+23	4	Matches 'still high, no post-holiday change'; misses 'decreased'
+24	2	Plateau idea ok but quoted case/death numbers are early-2020 figures, wrong period
+25	1	Talks about Thanksgiving 2023 / 2024 data, wrong period, says cases low
+26	1	No-info response
+27	2	No vaccinations, no meningitis/COVID; mostly chronic-disease tips
+28	4	COVID, flu, meningitis vaccines, masks, hand hygiene; no measles; some garbled items
+29	5	All four diseases plus masks and hygiene
+30	3	Heat, food, COVID vaccine ok; misses meningitis and flu; malaria risk overstated
+31	5	Malaria/TB death reductions plus >$2B 2002-2017
+32	4	Correct mechanism (HIV/TB/malaria, health system); no $2B or lives saved
+33	3	Generic; vaccination and emergency response are not Global Fund core roles
+34	4	Accurate generic description; no $2B or lives saved; truncated
+35	4	Has >$2B and disease split; '$1 million' total looks wrong
+36	2	Vague; no FXG, no April 15 1980; US Memorial Day comparison
+37	1	Fabricated: Hailemariam Desalegn as OLF martyr; wrong dates
+38	2	Mentions April 15 1980 OLF leaders but garbled (ORM, Wayyaanee); no FXG
+39	3	April 15 1980 OLF leaders correct; misses FXG transition
+40	5	Has FXG plus April 15 1980
+41	1	Asks for clarification
+42	1	Off-topic: general transmission quote
+43	1	Generic advice on finding info
+44	2	Different case (61-year-old Adama man, 24 contacts) than reference (85-year-old, 53 contacts, 22 isolated)
+45	1	Only rephrases as a question
+46	3	Generic bad-conditions description; no Yemen/COVID cause or 2,000 repatriation plan
+47	4	Accurate (Al-Kharj, Al-Shumaisi, Amnesty); no repatriation plan
+48	4	Accurate detention conditions; no repatriation plan
+49	2	About migrant labour issues in general, not detention
+50	4	Accurate detention conditions; no repatriation plan
+51	3	Provider and completing baby's vaccine series ok; no HBIG at birth, no breastfeeding point
+52	5	
+53	2	Provider/testing only; nothing on baby HBIG, vaccine or breastfeeding
+54	2	No HBIG; vaccine advice aimed at infected mother; hedges on breastfeeding safety
+55	3	HBIG plus vaccine at birth ok; garbled HIV line and tells infected mother to vaccinate; no breastfeeding point
+56	5	
+57	4	Worsening and spread ok; misses surviving/resistant germs and relapse
+58	2	Calls TB 'busaa' (malaria); negation error says you won't spread it
+59	5	
+60	5	
+61	5	
+62	4	Components mostly right; omits water 95% and uric acid
+63	5	
+64	5	
+65	1	Answers about a teapot
+66	3	Money collected and used for May 20 celebration, protest; misses beatings / day of mourning
+67	1	Wrong: World Environment Day in Burkina Faso
+68	5	Full match: money for new woreda misused, beatings, day of mourning
+69	1	Says passages lack info
+70	1	Fabricated: Gen. Waaqoo Guutuu birthday
+71	3	Core Cuba role right; errors: claims Moncada 1953 and jail, says died in Congo (Bolivia)
+72	5	
+73	1	About Fidel Castro, not Che
+74	5	
+75	4	Correct; omits overthrowing Batista with the Castros
+76	5	
+77	1	Says passages lack info
+78	1	No-info response
+79	4	Method correct; example wrong (says 2345 has three digits)
+80	1	Only repeats the question
+81	5	
+82	1	Only repeats the question
+83	3	Hedged; says countries cite the pandemic but denies sources explain it
+84	5	
+85	2	Frames detention as genuine health measure; misses 'pandemic as pretext'; questionable country examples
+86	4	Matches first part; omits matter/vacuum (hawaa) point
+87	4	Matches first part; omits matter/vacuum (hawaa) point
+88	1	Wrong sense of the word (social relations)
+89	1	Garbled one-liner
+90	1	Wrong sense (Oromo philosophy), fabricated
+91	2	12-72 h contradicts reference (3.5 h, 45 min)
+92	1	Says passages lack info
+93	4	Correct by general knowledge (antigen 15-30 min, PCR hours to days); not the reference figures
+94	1	No-info response
+95	1	Off-topic: Oromia test-centre openings
+96	5	
+97	5	WHO median 5-6 days, range 1-14
+98	4	2-14 days; no typical range
+99	4	2-14 days; no typical range
+100	5	
+101	5	Matches reference plus cleaning steps
+102	5	Matches reference plus cleaning steps
+103	3	Focus on occupational exposure; misses deteriorating paint/renovation dust
+104	1	Confuses with Lyme disease
+105	3	Sources (old paint, water, soil) right but thin; no dust/renovation detail
+106	5	
+107	2	Fabricated festivals (Gubaa, Air festival); Irreecha described as swimming
+108	3	Broadly right; errors: Irreecha as new year, doro wat as sheep
+109	5	
+110	5	
+111	1	Garbled textbook dump
+112	5	
+113	1	Asks about 'the above exercise'
+114	3	Definition right; practice steps missing (cut off)
+115	2	Treats it as sprint training; wrong concept
+116	1	Off-topic: ventilator needs
+117	3	Question/reference mismatch: ref = patients urge prevention before infection. Sound generic patient advice, misses that point
+118	3	Question/reference mismatch. Generic wellness advice, misses ref point
+119	3	Question/reference mismatch. Sound generic patient advice, misses ref point
+120	4	Matches reference (take precautions before infection); garbled subject
+121	5	Immobilize/splint, cold, elevate, seek care: correct first aid
+122	2	Garbled; 'tie leg to child's neck', says wait for health worker
+123	5	
+124	1	No-info response
+125	4	Correct immobilize/splint/call; no explicit 'go to hospital'
+126	5	Correct (sentence end, numbered headings); noisy source dump
+127	5	
+128	3	Names '.' but says ends a word and separates capital/small letters
+129	5	
+130	2	Says no mark separates headings; contradicts reference
+131	1	Only repeats the question
+132	2	Generic world percussion list, not traditional; some errors (dulcimer, theremin)
+133	5	
+134	3	Marakasha, kabaro, tsinatsil right; begena is not percussion; dibbee missing
+135	1	Textbook dump, never lists instruments
+136	3	Military expertise reason ok; no Haile Selassie assignment; religious detail unsupported
+137	1	Garbled, says passages lack info
+138	5	
+139	5	Correct, includes HS assignment and Mandela
+140	2	Speculative reasons (pan-Africanism); OAU did not exist in 1962; no HS assignment
+141	5	
+142	4	Unit right; definition lacks direction (describes speed)
+143	5	
+144	3	Starts with 'urgency' confusion; velocity part correct
+145	5	
+146	4	Symptoms, 12-24 h death, unknown cause correct; misses breathing difficulty; off-topic botulism section
+147	1	No-info response
+148	1	No-info response
+149	1	Wrong disease, says mild for people
+150	1	Only repeats the question

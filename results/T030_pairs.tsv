@@ -1,0 +1,9 @@
+a	b	n	diff	lo	hi	wins	ties	losses
+rag_naive	closed	316	1.33	1.15	1.509	222	45	49
+agent_full	closed	316	0.917	0.698	1.13	205	30	81
+closed	closed_tt_nllb	316	0.229	0.057	0.396	152	50	114
+closed	closed_tt_self	316	-0.147	-0.296	0.003	108	62	146
+rag_naive	rag_tt_nllb	316	1.103	0.914	1.297	218	41	57
+agent_noverify	rag_naive	316	-0.041	-0.191	0.108	95	125	96
+agent_full	agent_noverify	316	-0.372	-0.525	-0.222	71	106	139
+agent_full	rag_naive	316	-0.414	-0.579	-0.253	81	100	135
