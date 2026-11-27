@@ -1,0 +1,12 @@
+arm	ref_ctx	ref_ctx_nocite	shift	has_markers_pct	a	b	n	diff	lo	hi	p	p_holm
+closed	2.995	2.98	-0.014	0.0								
+closed_tt_nllb	2.797	2.772	-0.025	0.0								
+closed_tt_self	3.285	3.207	-0.079	0.0								
+rag_naive	4.382	4.402	0.02	71.7								
+rag_tt_nllb	3.19	3.103	-0.087	0.0								
+rag_tt_self	3.801	3.786	-0.014	0.0								
+agent_noverify	4.274	4.246	-0.027	61.4								
+agent_full	3.884	3.859	-0.025	69.6								
+					rag_naive	rag_tt_self	184	0.616	0.424	0.806	0.0	0.0
+					rag_naive	rag_tt_nllb	184	1.299	1.098	1.509	0.0	0.0
+					rag_naive	closed	184	1.422	1.192	1.659	0.0	0.0

@@ -1,0 +1,58 @@
+qdrant already running (pid 3849689) on 46333
+RQ-SCREEN KB 49724 children, 2907798 distinct word 5-grams | generated dev questions 364 | RQ raw 79
+RQ-5GRAM questions sharing a word 5-gram with the KB (reported, not excluded): 1/79
+RQ-KEPT 79/79 | culture 8, education 31, health 40
+RQ-OVERLAP top-1 BM25 child, share of question content tokens: real 45.2% (median 42.9) | generated test 58.6% (median 57.1) | generated vs own source passage 59.4%
+DONE screen
+served AfriqueQwen3.5-9B-Instruct-textview on GPU 9
+HELDOUT: 79 questions (excluded 0 iteration ids) | arms ['closed', 'closed_tt_nllb', 'closed_tt_self', 'rag_naive', 'rag_tt_nllb', 'rag_tt_self', 'agent_noverify', 'agent_full']
+ARM closed done
+ARM rag_naive done | LLM calls/question 1.05
+ARM agent_noverify done | LLM calls/question 3.28
+ARM agent_full done | LLM calls/question 5.46
+ARM closed_tt_nllb done
+ARM closed_tt_self done
+ARM rag_tt_nllb done | NLLB 152s, OOM splits 0
+ARM rag_tt_self done
+JUDGE: 632 answers (0 reused from cache) in 282s
+DONE: LLM calls 3626 | blind sheet v2 150 rows
+RQ judge AfriqueQwen (ref_ctx, key points as reference):
+ARM-RESULT arm closed | n 79 | judge 3.333 | lo 3.08 | hi 3.578 | health 2.9 | education 3.914 | abstain_pct 0.0 | confident_wrong_pct 27.8 | fallback_pct 0.0 | answered_judge 3.333 | median_s 5.03 | words 75.2 | english_ratio 0.003 | gold_in_ev_pct  | src_W01 3.28 | src_W02 3.15 | src_W03 3.45 | src_W04 3.46
+ARM-RESULT arm closed_tt_nllb | n 79 | judge 3.253 | lo 2.92 | hi 3.561 | health 3.358 | education 3.538 | abstain_pct 0.0 | confident_wrong_pct 29.1 | fallback_pct 0.0 | answered_judge 3.253 | median_s 1.12 | words 151.7 | english_ratio 0.004 | gold_in_ev_pct  | src_W01 3.43 | src_W02 2.83 | src_W03 3.3 | src_W04 3.46
+ARM-RESULT arm closed_tt_self | n 79 | judge 4.068 | lo 3.797 | hi 4.312 | health 3.95 | education 4.43 | abstain_pct 0.0 | confident_wrong_pct 13.9 | fallback_pct 0.0 | answered_judge 4.068 | median_s 15.76 | words 134.2 | english_ratio 0.004 | gold_in_ev_pct  | src_W01 4.08 | src_W02 4.33 | src_W03 3.55 | src_W04 4.32
+ARM-RESULT arm rag_naive | n 79 | judge 3.932 | lo 3.696 | hi 4.16 | health 3.575 | education 4.269 | abstain_pct 0.0 | confident_wrong_pct 10.1 | fallback_pct 0.0 | answered_judge 3.932 | median_s 8.41 | words 82.4 | english_ratio 0.004 | gold_in_ev_pct 0.0 | src_W01 4.05 | src_W02 3.55 | src_W03 4.28 | src_W04 3.84
+ARM-RESULT arm rag_tt_nllb | n 79 | judge 2.802 | lo 2.527 | hi 3.084 | health 2.825 | education 2.989 | abstain_pct 0.0 | confident_wrong_pct 34.2 | fallback_pct 0.0 | answered_judge 2.802 | median_s 2.74 | words 117.4 | english_ratio 0.006 | gold_in_ev_pct  | src_W01 3.4 | src_W02 2.42 | src_W03 2.58 | src_W04 2.81
+ARM-RESULT arm rag_tt_self | n 79 | judge 3.532 | lo 3.262 | hi 3.802 | health 3.192 | education 3.72 | abstain_pct 0.0 | confident_wrong_pct 16.5 | fallback_pct 0.0 | answered_judge 3.532 | median_s 64.26 | words 99.1 | english_ratio 0.005 | gold_in_ev_pct  | src_W01 3.6 | src_W02 3.23 | src_W03 3.52 | src_W04 3.79
+ARM-RESULT arm agent_noverify | n 79 | judge 3.696 | lo 3.435 | hi 3.949 | health 3.475 | education 3.806 | abstain_pct 5.1 | confident_wrong_pct 10.1 | fallback_pct 0.0 | answered_judge 3.782 | median_s 17.91 | words 77.0 | english_ratio 0.004 | gold_in_ev_pct 0.0 | src_W01 3.83 | src_W02 3.23 | src_W03 3.67 | src_W04 4.07
+ARM-RESULT arm agent_full | n 79 | judge 2.743 | lo 2.443 | hi 3.034 | health 2.983 | education 2.29 | abstain_pct 29.1 | confident_wrong_pct 15.2 | fallback_pct 32.9 | answered_judge 3.25 | median_s 25.75 | words 73.3 | english_ratio 0.003 | gold_in_ev_pct 0.0 | src_W01 2.9 | src_W02 2.28 | src_W03 2.37 | src_W04 3.46
+PAIR rag_naive - closed: +0.60 [+0.34, +0.87] n=79 p_holm=0.0000 | W/T/L 44/18/17
+PAIR agent_full - closed: -0.59 [-1.03, -0.15] n=79 p_holm=0.0240 | W/T/L 29/8/42
+PAIR closed - closed_tt_nllb: +0.08 [-0.24, +0.44] n=79 p_holm=0.6620 | W/T/L 31/12/36
+PAIR closed - closed_tt_self: -0.73 [-1.02, -0.43] n=79 p_holm=0.0000 | W/T/L 15/16/48
+PAIR rag_naive - rag_tt_nllb: +1.13 [+0.83, +1.45] n=79 p_holm=0.0000 | W/T/L 56/10/13
+PAIR rag_naive - rag_tt_self: +0.40 [+0.09, +0.70] n=79 p_holm=0.0435 | W/T/L 42/16/21
+PAIR rag_tt_self - rag_tt_nllb: +0.73 [+0.36, +1.12] n=79 p_holm=0.0025 | W/T/L 46/11/22
+PAIR agent_noverify - rag_naive: -0.24 [-0.49, +0.02] n=79 p_holm=0.1250 | W/T/L 27/17/35
+PAIR agent_full - agent_noverify: -0.95 [-1.28, -0.64] n=79 p_holm=0.0000 | W/T/L 12/19/48
+PAIR agent_full - rag_naive: -1.19 [-1.55, -0.83] n=79 p_holm=0.0000 | W/T/L 12/12/55
+served gemma-3-27b-Instruct on GPU 9,8
+E2 [g27_judge] T038_realq closed          n=79 judge 3.722 [3.53, 3.90] abstain 0.0%
+E2 [g27_judge] T038_realq closed_tt_nllb  n=79 judge 3.624 [3.33, 3.89] abstain 0.0%
+E2 [g27_judge] T038_realq closed_tt_self  n=79 judge 3.979 [3.76, 4.19] abstain 0.0%
+E2 [g27_judge] T038_realq rag_naive       n=79 judge 4.059 [3.83, 4.27] abstain 0.0%
+E2 [g27_judge] T038_realq rag_tt_nllb     n=79 judge 3.316 [3.05, 3.58] abstain 0.0%
+E2 [g27_judge] T038_realq rag_tt_self     n=79 judge 3.565 [3.29, 3.83] abstain 0.0%
+E2 [g27_judge] T038_realq agent_noverify  n=79 judge 3.827 [3.58, 4.07] abstain 5.1%
+E2 [g27_judge] T038_realq agent_full      n=79 judge 2.966 [2.62, 3.30] abstain 29.1%
+E2-PAIR [g27_judge] T038_realq rag_naive - closed: +0.34 [+0.07, +0.60] n=79 p_holm=0.044
+E2-PAIR [g27_judge] T038_realq rag_naive - rag_tt_self: +0.49 [+0.19, +0.79] n=79 p_holm=0.0025
+E2-PAIR [g27_judge] T038_realq rag_naive - rag_tt_nllb: +0.74 [+0.50, +1.00] n=79 p_holm=0.0
+E2-PAIR [g27_judge] T038_realq closed_tt_self - closed: +0.26 [-0.00, +0.52] n=79 p_holm=0.162
+E2-PAIR [g27_judge] T038_realq agent_noverify - rag_naive: -0.23 [-0.50, +0.03] n=79 p_holm=0.162
+E2-PAIR [g27_judge] T038_realq agent_full - rag_naive: -1.09 [-1.47, -0.72] n=79 p_holm=0.0
+E2-PAIR [g27_judge] T038_realq rag_tt_self - rag_tt_nllb: +0.25 [-0.01, +0.53] n=79 p_holm=0.162
+DONE rejudge in 557s
+RQ-SHEET 79 questions x 4 systems = 316 rows | files GadaaBot_realq_blind_A1.xlsx, GadaaBot_realq_blind_A2.xlsx
+DONE sheet
+Download for annotators: $GB_ROOT/runs/T038/GadaaBot_realq_blind_A1.xlsx and _A2.xlsx (never send realq_key_PRIVATE.tsv)
+STATUS: PASS

@@ -1,7 +1,20 @@
 __pycache__/
 *.pyc
-models/
-qdrant/
-logs/
+/models/
+/qdrant/
+/logs/
+/reports/
+/runs/
+/release/
+/tasks/
 *.sqlite
 .env
+/configs/gadaabot.env
+# never publish keys, spreadsheets or photos
+*PRIVATE*
+*.xlsx
+*.xls
+*.png
+*.jpg
+*.jpeg
+*.heic

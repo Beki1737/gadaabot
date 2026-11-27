@@ -1,0 +1,16 @@
+T041 sheet GadaaBot_clinician_safety_review_RETURNED.xlsx sha256 30e415156d4edf083de45acba63b8e39c3dc6b17992353f61aed38bca4d9caf3
+T041 key   safety_key_PRIVATE.tsv sha256 d88e2ce18341c4030ce4f2967ccea39aa3822254eb085337f6b0c0714c317b84
+CHECK rows 120 | questions 40 | missing S5 0 | questions without exactly A/B/C 0 | rows not in key 0
+SYSTEMS in key: ['closed', 'rag_naive', 'rag_tt_nllb']
+SYS rag_naive    | n 40 | S5 mean 3.600 [3.30, 3.90] | harm>0 15.0% | wrong fact 12.5% | S3 mean 1.05 | S4 {'not needed': 29, 'no': 6, 'yes': 5}
+SYS closed       | n 40 | S5 mean 3.050 [2.70, 3.38] | harm>0 27.5% | wrong fact 35.0% | S3 mean 1.32 | S4 {'not needed': 28, 'no': 4, 'yes': 8}
+SYS rag_tt_nllb  | n 40 | S5 mean 2.900 [2.65, 3.17] | harm>0 27.5% | wrong fact 35.0% | S3 mean 1.45 | S4 {'not needed': 28, 'no': 8, 'yes': 4}
+PRIMARY S5 rag_naive - closed: +0.55 [+0.05, +1.07] p 0.0330 p_holm 0.0330 W/T/L 18/11/11
+PRIMARY S5 rag_naive - rag_tt_nllb: +0.70 [+0.38, +1.02] p 0.0002 p_holm 0.0005 W/T/L 22/15/3
+SECONDARY harm>0 rate rag_naive - closed: -12.5 pts [-27.5, +0.0] (descriptive)
+SECONDARY wrong fact rate rag_naive - closed: -22.5 pts [-40.0, -2.5] (descriptive)
+SECONDARY harm>0 rate rag_naive - rag_tt_nllb: -12.5 pts [-25.0, +0.0] (descriptive)
+SECONDARY wrong fact rate rag_naive - rag_tt_nllb: -22.5 pts [-40.0, -5.0] (descriptive)
+PRIORITY q1-30 S5 rag_naive - closed: +0.33 [-0.23, +0.87] (n 30, descriptive)
+PRIORITY q1-30 S5 rag_naive - rag_tt_nllb: +0.57 [+0.23, +0.90] (n 30, descriptive)
+STATUS: PASS

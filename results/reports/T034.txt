@@ -1,0 +1,383 @@
+INV shared models ($SHARED_MODELS):
+INV Aaditya/Llama3-OpenBioLLM-8B                                           LlamaForCausalLM                         16.1 GB
+INV ahmed-masry/chartgemma                                                 PaliGemmaForConditionalGeneration        11.7 GB
+INV ahmed-masry/ChartInstruct-LLama2                                       LlavaForConditionalGeneration            13.7 GB
+INV Alibaba-NLP/gme-Qwen2-VL-2B-Instruct                                   Qwen2VLForConditionalGeneration           8.8 GB
+INV Alibaba-NLP/gme-Qwen2-VL-7B-Instruct                                   Qwen2VLForConditionalGeneration          33.2 GB
+INV Alibaba-NLP/gte-base-en-v1.5                                           NewModel                                  0.5 GB
+INV Alibaba-NLP/gte-large-en-v1.5                                          NewModel                                  1.7 GB
+INV Alibaba-NLP/gte-multilingual-base                                      NewModel                                  0.6 GB
+INV Alibaba-NLP/gte-multilingual-reranker-base                             NewForSequenceClassification              0.6 GB
+INV Alibaba-NLP/gte-Qwen2-1.5B-Instruct                                    Qwen2ForCausalLM                          7.1 GB
+INV Alibaba-NLP/gte-Qwen2-7B-instruct                                      Qwen2ForCausalLM                         30.5 GB
+INV Alibaba-NLP/gte-reranker-modernbert-base                               ModernBertForSequenceClassification       0.6 GB
+INV allenai/Molmo-7B-D-0924                                                MolmoForCausalLM                         32.1 GB
+INV AllenAI/scibert_scivocab_cased                                         ?                                         0.4 GB
+INV AllenAI/scibert_scivocab_uncased                                       ?                                         0.4 GB
+INV Answerdotai/ModernBERT-base                                            ModernBertForMaskedLM                     1.2 GB
+INV Answerdotai/ModernBERT-large                                           ModernBertForMaskedLM                     3.2 GB
+INV BAAI/bge-base-en-v1.5                                                  BertModel                                 0.9 GB
+INV BAAI/bge-en-icl                                                        MistralModel                             28.4 GB
+INV BAAI/bge-large-en-v1.5                                                 BertModel                                 2.7 GB
+INV BAAI/bge-m3                                                            XLMRobertaModel                           2.3 GB
+INV BAAI/bge-reranker-base                                                 XLMRobertaForSequenceClassification       2.2 GB
+INV BAAI/bge-reranker-large                                                XLMRobertaForSequenceClassification       4.5 GB
+INV BAAI/bge-reranker-v2-m3                                                XLMRobertaForSequenceClassification       2.3 GB
+INV BAAI/bge-small-en-v1.5                                                 BertModel                                 0.3 GB
+INV BioMistral/BioMistral-7B                                               MistralForCausalLM                       43.5 GB
+INV Bllossom/llama-3.2-Korean-Bllossom-3B                                  LlamaForCausalLM                          6.4 GB
+INV Bllossom/llama-3.2-Korean-Bllossom-AICA-5B                             MllamaForConditionalGeneration           10.4 GB
+INV BMRetriever/BMRetriever-1B                                             GPTNeoXModel                              3.6 GB
+INV BMRetriever/BMRetriever-2B                                             GemmaModel                               10.0 GB
+INV BMRetriever/BMRetriever-410M                                           GPTNeoXModel                              1.4 GB
+INV BMRetriever/BMRetriever-7B                                             MistralModel                             28.4 GB
+INV Colbert-IR/colbertv2.0                                                 HF_ColBERT                                0.9 GB
+INV DeepSeek-AI/DeepSeek-R1-Distill-Llama-70B                              LlamaForCausalLM                        141.1 GB
+INV DeepSeek-AI/DeepSeek-R1-Distill-Llama-8B                               LlamaForCausalLM                         16.1 GB
+INV DeepSeek-AI/DeepSeek-R1-Distill-Qwen-14B                               Qwen2ForCausalLM                         29.5 GB
+INV DeepSeek-AI/DeepSeek-R1-Distill-Qwen-1.5B                              Qwen2ForCausalLM                          3.6 GB
+INV DeepSeek-AI/DeepSeek-R1-Distill-Qwen-32B                               Qwen2ForCausalLM                         65.5 GB
+INV DeepSeek-AI/DeepSeek-R1-Distill-Qwen-7B                                Qwen2ForCausalLM                         15.2 GB
+INV DistilBERT/distilbert-base-cased                                       DistilBertForMaskedLM                     0.5 GB
+INV DistilBERT/distilbert-base-multilingual-cased                          DistilBertForMaskedLM                     1.1 GB
+INV DistilBERT/distilbert-base-uncased                                     DistilBertForMaskedLM                     0.5 GB
+INV DistilBERT/distilgpt2                                                  GPT2LMHeadModel                           0.7 GB
+INV DistilBERT/distilroberta-base                                          RobertaForMaskedLM                        0.7 GB
+INV Dmis-Lab/biobert-v1.1                                                  BertModel                                 0.4 GB
+INV Dunzhang/stella_en_1.5B_v5                                             Qwen2ForCausalLM                         12.7 GB
+INV Dunzhang/stella_en_400M_v5                                             NewModel                                  3.7 GB
+INV FacebookAI/roberta-base                                                RobertaForMaskedLM                        1.0 GB
+INV FacebookAI/roberta-large                                               RobertaForMaskedLM                        2.8 GB
+INV FacebookAI/xlm-mlm-en-2048                                             XLMWithLMHeadModel                        2.7 GB
+INV FacebookAI/xlm-roberta-base                                            XLMRobertaForMaskedLM                     1.1 GB
+INV FacebookAI/xlm-roberta-large                                           XLMRobertaForMaskedLM                     4.5 GB
+INV Facebook/bart-base                                                     BartModel                                 1.1 GB
+INV Facebook/bart-large                                                    BartModel                                 1.0 GB
+INV Facebook/contriever                                                    Contriever                                0.4 GB
+INV Facebook/contriever-msmarco                                            Contriever                                0.4 GB
+INV Facebook/dinov2-base                                                   Dinov2Model                               0.7 GB
+INV Facebook/dinov2-giant                                                  Dinov2Model                               9.1 GB
+INV Facebook/dinov2-large                                                  Dinov2Model                               2.4 GB
+INV Facebook/dpr-ctx_encoder-multiset-base                                 DPRContextEncoder                         0.4 GB
+INV Facebook/dpr-ctx_encoder-single-nq-base                                DPRContextEncoder                         0.4 GB
+INV Facebook/dpr-question_encoder-multiset-base                            DPRQuestionEncoder                        0.4 GB
+INV Facebook/dpr-question_encoder-single-nq-base                           DPRQuestionEncoder                        0.4 GB
+INV Facebook/mcontriever                                                   Contriever                                0.7 GB
+INV Facebook/mcontriever-msmarco                                           Contriever                                0.7 GB
+INV Facebook/nougat-base                                                   VisionEncoderDecoderModel                 2.8 GB
+INV Facebook/nougat-small                                                  VisionEncoderDecoderModel                 2.0 GB
+INV Facebook/rag-sequence-nq                                               RagSequenceForGeneration                  2.1 GB
+INV Facebook/sam2-hiera-base-plus-hf                                       Sam2Model                                 0.3 GB
+INV Facebook/sam2-hiera-large-hf                                           Sam2Model                                 0.9 GB
+INV Facebook/sam2-hiera-small-hf                                           Sam2Model                                 0.2 GB
+INV Facebook/sam2-hiera-tiny-hf                                            Sam2Model                                 0.2 GB
+INV FreedomIntelligence/HuatuoGPT-Vision-34B                               LlavaLlamaForCausalLM                    71.2 GB
+INV FreedomIntelligence/HuatuoGPT-Vision-34B-hf                            LlavaForConditionalGeneration            69.5 GB
+INV Google/bert-base-cased                                                 BertForMaskedLM                           0.9 GB
+INV Google/bert-base-multilingual-cased                                    BertForMaskedLM                           1.4 GB
+INV Google/bert-base-multilingual-uncased                                  BertForMaskedLM                           1.3 GB
+INV Google/bert-base-uncased                                               BertForMaskedLM                           0.9 GB
+INV Google/bert-large-cased                                                BertForMaskedLM                           2.7 GB
+INV Google/bert-large-uncased                                              BertForMaskedLM                           2.7 GB
+INV Google/electra-base-discriminator                                      ElectraForPreTraining                     0.4 GB
+INV Google/electra-base-generator                                          ElectraForMaskedLM                        0.1 GB
+INV Google/flan-t5-base                                                    T5ForConditionalGeneration                2.0 GB
+INV Google/flan-t5-large                                                   T5ForConditionalGeneration                6.3 GB
+INV Google/flan-t5-small                                                   T5ForConditionalGeneration                0.6 GB
+INV Google/flan-t5-xl                                                      T5ForConditionalGeneration               22.8 GB
+INV Google/flan-t5-xxl                                                     T5ForConditionalGeneration               90.1 GB
+INV Google/gemma-2-27b-Instruct                                            Gemma2ForCausalLM                        54.5 GB
+INV Google/gemma-2-2b-Instruct                                             Gemma2ForCausalLM                         5.2 GB
+INV Google/gemma-2-9b-Instruct                                             Gemma2ForCausalLM                        18.5 GB
+INV Google/gemma-3-12b-Instruct                                            Gemma3ForConditionalGeneration           24.4 GB
+INV Google/gemma-3-1b-Instruct                                             Gemma3ForCausalLM                         2.0 GB
+INV Google/gemma-3-270m                                                    Gemma3ForCausalLM                         0.5 GB
+INV Google/gemma-3-270m-it                                                 Gemma3ForCausalLM                         0.5 GB
+INV Google/gemma-3-27b-Instruct                                            Gemma3ForConditionalGeneration           54.9 GB
+INV Google/gemma-3-27b-Pretrained                                          Gemma3ForConditionalGeneration           49.9 GB
+INV Google/gemma-3-4b-Instruct                                             Gemma3ForConditionalGeneration            8.6 GB
+INV Google/gemma-4-E2B                                                     Gemma4ForConditionalGeneration           10.2 GB
+INV Google/gemma-4-E2B-it                                                  Gemma4ForConditionalGeneration           10.2 GB
+INV Google/gemma-4-E4B                                                     Gemma4ForConditionalGeneration           16.0 GB
+INV Google/gemma-4-E4B-it                                                  Gemma4ForConditionalGeneration           16.0 GB
+INV Google/medgemma-27b-it                                                 Gemma3ForConditionalGeneration           54.9 GB
+INV Google/medgemma-27b-text-it                                            Gemma3ForCausalLM                        54.0 GB
+INV Google/medgemma-4b-it                                                  Gemma3ForConditionalGeneration            8.6 GB
+INV Google/mobilebert-uncased                                              MobileBertForPreTraining                  0.1 GB
+INV Google/mt5-base                                                        MT5ForConditionalGeneration               2.3 GB
+INV Google/mt5-large                                                       MT5ForConditionalGeneration               4.9 GB
+INV Google/mt5-xl                                                          MT5ForConditionalGeneration              15.0 GB
+INV Google/mt5-xxl                                                         T5ForConditionalGeneration               51.7 GB
+INV Google/paligemma-3b-mix-224                                            PaliGemmaForConditionalGeneration        11.7 GB
+INV Google/paligemma-3b-mix-448                                            PaliGemmaForConditionalGeneration        11.7 GB
+INV Google/paligemma-3b-pt-224                                             PaliGemmaForConditionalGeneration        11.7 GB
+INV Google/paligemma-3b-pt-448                                             PaliGemmaForConditionalGeneration        11.7 GB
+INV Google/paligemma-3b-pt-896                                             PaliGemmaForConditionalGeneration        11.7 GB
+INV Google/siglip-base-patch16-224                                         SiglipModel                               1.6 GB
+INV Google/siglip-base-patch16-384                                         SiglipModel                               0.8 GB
+INV Google/siglip-base-patch16-512                                         SiglipModel                               0.8 GB
+INV Google/siglip-large-patch16-256                                        SiglipModel                               2.6 GB
+INV Google/siglip-large-patch16-384                                        SiglipModel                               2.6 GB
+INV Google/t5-v1_1-base                                                    T5ForConditionalGeneration                1.0 GB
+INV Google/t5-v1_1-large                                                   T5ForConditionalGeneration                3.1 GB
+INV Google/t5-v1_1-xl                                                      T5ForConditionalGeneration               11.4 GB
+INV Google/t5-v1_1-xxl                                                     T5ForConditionalGeneration               44.5 GB
+INV Google/t5-xxl-ssm-nq                                                   T5ForConditionalGeneration               44.5 GB
+INV Google/vit-base-patch16-224                                            ViTForImageClassification                 0.7 GB
+INV Google/vit-base-patch16-224-in21k                                      ViTModel                                  0.7 GB
+INV HuggingFaceM4/idefics2-8b                                              Idefics2ForConditionalGeneration         33.6 GB
+INV HuggingFaceTB/SmolLM3-3B                                               SmolLM3ForCausalLM                        6.2 GB
+INV IBM-Granite/granite-4.2-3b                                             GraniteForCausalLM                        7.3 GB
+INV IBM-Granite/granite-4.2-8b                                             GraniteForCausalLM                       17.6 GB
+INV Jinaai/jina-embeddings-v2-base-en                                      JinaBertForMaskedLM                       1.1 GB
+INV Jinaai/jina-embeddings-v3                                              XLMRobertaModel                           2.3 GB
+INV Klue/bert-base                                                         BertForMaskedLM                           0.9 GB
+INV Klue/roberta-base                                                      RobertaForMaskedLM                        0.9 GB
+INV Klue/roberta-large                                                     RobertaForMaskedLM                        2.7 GB
+INV Klue/roberta-small                                                     RobertaForMaskedLM                        0.5 GB
+INV Llava-HF/llama3-llava-next-8b-hf                                       LlavaNextForConditionalGeneration        16.7 GB
+INV llava-hf/llava-1.5-7b-hf                                               LlavaForConditionalGeneration            14.1 GB
+INV Llava-HF/llava-next-72b-hf                                             LlavaNextForConditionalGeneration       145.3 GB
+INV Llava-HF/LLaVA-NeXT-Video-7B-hf                                        LlavaNextVideoForConditionalGeneration   14.1 GB
+INV Llava-HF/llava-v1.6-mistral-7b-hf                                      LlavaNextForConditionalGeneration        15.1 GB
+INV Llava-HF/llava-v1.6-vicuna-13b-hf                                      LlavaNextForConditionalGeneration        26.7 GB
+INV Llava-HF/llava-v1.6-vicuna-7b-hf                                       LlavaNextForConditionalGeneration        14.1 GB
+INV lmsys/vicuna-13b-v1.1                                                  LlamaForCausalLM                         26.4 GB
+INV m42-health/Llama3-Med42-70B                                            LlamaForCausalLM                        141.1 GB
+INV m42-health/Llama3-Med42-8B                                             LlamaForCausalLM                         16.1 GB
+INV MetaAI/Llama_3.1_70B                                                   LlamaForCausalLM                        141.1 GB
+INV MetaAI/Llama_3.1_70B_Instruct                                          LlamaForCausalLM                        141.1 GB
+INV MetaAI/Llama_3.1_8B                                                    LlamaForCausalLM                         16.1 GB
+INV MetaAI/Llama_3.1_8B-Instruct                                           LlamaForCausalLM                         16.1 GB
+INV MetaAI/Llama-3.2-11B-Vision                                            MllamaForConditionalGeneration           21.3 GB
+INV MetaAI/Llama-3.2-11B-Vision-Instruct                                   MllamaForConditionalGeneration           21.3 GB
+INV MetaAI/Llama-3.2-1B                                                    LlamaForCausalLM                          2.5 GB
+INV MetaAI/Llama-3.2-1B-Instruct                                           LlamaForCausalLM                          2.5 GB
+INV MetaAI/Llama-3.2-3B                                                    LlamaForCausalLM                          6.4 GB
+INV MetaAI/Llama-3.2-3B-Instruct                                           LlamaForCausalLM                          6.4 GB
+INV MetaAI/Llama-3.2-90B-Vision                                            MllamaForConditionalGeneration          177.2 GB
+INV MetaAI/Llama-3.2-90B-Vision-Instruct                                   MllamaForConditionalGeneration          177.2 GB
+INV MetaAI/Llama-3.3-70B-Instruct                                          LlamaForCausalLM                        141.1 GB
+INV MetaAI/Llama-3.3-70B-Instruct-FP8                                      LlamaForCausalLM                         72.7 GB
+INV Microsoft/beit-base-patch16-224                                        BeitForImageClassification                0.7 GB
+INV Microsoft/beit-base-patch16-224-pt22k-ft22k                            BeitForImageClassification                0.4 GB
+INV Microsoft/beit-large-patch16-224-pt22k-ft22k                           BeitForImageClassification                1.3 GB
+INV Microsoft/biogpt                                                       BioGptForCausalLM                         1.6 GB
+INV Microsoft/BioGPT-Large                                                 BioGptForCausalLM                         6.3 GB
+INV Microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract                   BertForMaskedLM                           0.4 GB
+INV Microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext          BertForMaskedLM                           0.4 GB
+INV Microsoft/BiomedVLP-BioViL-T                                           CXRBertModel                              0.9 GB
+INV Microsoft/deberta-base                                                 ?                                         0.6 GB
+INV Microsoft/deberta-large                                                ?                                         1.6 GB
+INV Microsoft/deberta-v3-base                                              ?                                         0.4 GB
+INV Microsoft/deberta-v3-large                                             ?                                         1.4 GB
+INV Microsoft/deberta-v3-small                                             ?                                         0.3 GB
+INV Microsoft/deberta-xlarge                                               ?                                         1.5 GB
+INV Microsoft/Florence-2-base                                              Florence2ForConditionalGeneration         0.5 GB
+INV Microsoft/Florence-2-base-ft                                           Florence2ForConditionalGeneration         0.5 GB
+INV Microsoft/Florence-2-large                                             Florence2ForConditionalGeneration         1.5 GB
+INV Microsoft/Florence-2-large-ft                                          Florence2ForConditionalGeneration         1.5 GB
+INV Microsoft/git-base                                                     GitForCausalLM                            1.4 GB
+INV Microsoft/git-large                                                    GitForCausalLM                            1.6 GB
+INV Microsoft/kosmos-2.5                                                   Kosmos2_5ForConditionalGeneration         5.5 GB
+INV Microsoft/kosmos-2-patch14-224                                         Kosmos2ForConditionalGeneration          13.3 GB
+INV Microsoft/layoutlmv2-base-uncased                                      ?                                         0.8 GB
+INV Microsoft/layoutlmv3-base                                              ?                                         1.0 GB
+INV Microsoft/layoutxlm-base                                               ?                                         1.5 GB
+INV Microsoft/llava-med-v1.5-mistral-7b                                    LlavaMistralForCausalLM                  15.1 GB
+INV Microsoft/llava-med-v1.5-mistral-7b-hf                                 LlavaForConditionalGeneration            15.1 GB
+INV Microsoft/maira-2                                                      Maira2ForConditionalGeneration           27.5 GB
+INV Microsoft/mdeberta-v3-base                                             ?                                         2.3 GB
+INV Microsoft/MediPhi-Instruct                                             Phi3ForCausalLM                           7.6 GB
+INV Microsoft/Phi-3.5-mini-instruct                                        Phi3ForCausalLM                           7.6 GB
+INV Microsoft/Phi-3.5-Vision-Instruct                                      Phi3VForCausalLM                          8.3 GB
+INV Microsoft/Phi-3-medium-128k-Instruct                                   Phi3ForCausalLM                          27.9 GB
+INV Microsoft/Phi-3-medium-4k-Instruct                                     Phi3ForCausalLM                          27.9 GB
+INV Microsoft/Phi-3-mini-128k-Instruct                                     Phi3ForCausalLM                           7.6 GB
+INV Microsoft/Phi-3-mini-4k-Instruct                                       Phi3ForCausalLM                           7.6 GB
+INV Microsoft/Phi-3-small-128k-Instruct                                    Phi3SmallForCausalLM                     14.8 GB
+INV Microsoft/Phi-3-small-8k-Instruct                                      Phi3SmallForCausalLM                     14.8 GB
+INV Microsoft/Phi-3-vision-128k-Instruct                                   Phi3VForCausalLM                          8.3 GB
+INV Microsoft/Phi-4                                                        Phi3ForCausalLM                          29.3 GB
+INV Microsoft/Phi-4-mini-instruct                                          Phi3ForCausalLM                           7.7 GB
+INV Microsoft/Phi-4-multimodal-instruct                                    Phi4MMForCausalLM                        12.8 GB
+INV Microsoft/speecht5_tts                                                 SpeechT5ForTextToSpeech                   0.6 GB
+INV Microsoft/speecht5_vc                                                  SpeechT5ForSpeechToSpeech                 0.6 GB
+INV Microsoft/table-transformer-detection                                  TableTransformerForObjectDetection        0.2 GB
+INV Microsoft/table-transformer-sturcture-recognition-v1.1                 TableTransformerForObjectDetection        0.1 GB
+INV Microsoft/xclip-base-patch16                                           XCLIPModel                                0.8 GB
+INV Microsoft/xclip-base-patch16-zero-shot                                 XCLIPModel                                1.6 GB
+INV Microsoft/xclip-base-patch32                                           XClipModel                                1.6 GB
+INV Microsoft/xclip-large-patch14                                          XCLIPModel                                2.3 GB
+INV MistralAI/Ministral-8B-Instruct-2410                                   MistralForCausalLM                       32.1 GB
+INV MistralAI/Mistral-7B-Instruct-v0.3                                     MistralForCausalLM                       29.0 GB
+INV MistralAI/Mistral-Nemo-Instruct-2407                                   MistralForCausalLM                       49.0 GB
+INV MistralAI/Mistral-Small-3.1-24B-Instruct-2503                          Mistral3ForConditionalGeneration         96.0 GB
+INV MistralAI/Mistral-Small-3.2-24B-Instruct-2506                          Mistral3ForConditionalGeneration         96.0 GB
+INV MistralAI/Mistral-Small-Instruct-2409                                  MistralForCausalLM                       89.0 GB
+INV MistralAI/Mixtral-8x7B-Instruct-v0.1                                   MixtralForCausalLM                       93.4 GB
+INV MixedBread-AI/mxbai-colbert-large-v1                                   HF_ColBERT                                0.7 GB
+INV MixedBread-AI/mxbai-embed-large-v1                                     BertModel                                 0.7 GB
+INV MixedBread-AI/mxbai-embed-xsmall-v1                                    BertModel                                 0.0 GB
+INV MixedBread-AI/mxbai-rerank-base-v1                                     DebertaV2ForSequenceClassification        0.4 GB
+INV MixedBread-AI/mxbai-rerank-large-v1                                    DebertaV2ForSequenceClassification        0.9 GB
+INV MixedBread-AI/mxbai-rerank-xsmall-v1                                   DebertaV2ForSequenceClassification        0.1 GB
+INV mPLUG/TinyChart-3B-768                                                 TinyChartPhiForCausalLM                  12.8 GB
+INV mPLUG/TinyChart-3B-768-siglip                                          ?                                         0.8 GB
+INV ncbi/MedCPT-Cross-Encoder                                              BertForSequenceClassification             0.4 GB
+INV Nomic-AI/nomic-embed-text-v1.5                                         NomicBertModel                            0.5 GB
+INV Nomic-AI/nomic-embed-vision-v1                                         NomicVisionModel                          0.4 GB
+INV Nomic-AI/nomic-embed-vision-v1.5                                       NomicVisionModel                          0.4 GB
+INV Nvidia/Llama-3.1-Nemotron-70B-Instruct-HF                              LlamaForCausalLM                        141.1 GB
+INV Nvidia/MegatronBERT-345M-cased                                         ?                                         0.7 GB
+INV Nvidia/MegatronBERT-345M-uncased                                       ?                                         0.7 GB
+INV Nvidia/MegatronGPT2                                                    GPT2LMHeadModel                           0.8 GB
+INV Nvidia/NV-Embed-v1                                                     NVEmbedModel                             15.7 GB
+INV Nvidia/NV-Embed-v2                                                     NVEmbedModel                             15.7 GB
+INV OpenAI/clip-vit-base-patch16                                           CLIPModel                                 0.6 GB
+INV OpenAI/clip-vit-base-patch32                                           CLIPModel                                 0.6 GB
+INV OpenAI/clip-vit-large-patch14                                          CLIPModel                                 3.4 GB
+INV OpenAI/clip-vit-large-patch14-336                                      CLIPModel                                 1.7 GB
+INV OpenAI/GPT2-base                                                       GPT2LMHeadModel                           1.1 GB
+INV OpenAI/GPT2-large                                                      GPT2LMHeadModel                           6.5 GB
+INV OpenAI/GPT2-medium                                                     GPT2LMHeadModel                           3.0 GB
+INV OpenAI/GPT2-xl                                                         GPT2LMHeadModel                          12.9 GB
+INV OpenAI/gpt-oss-20b                                                     GptOssForCausalLM                        41.3 GB
+INV OpenAI/whisper-base                                                    WhisperForConditionalGeneration           0.6 GB
+INV OpenAI/whisper-large-v2                                                WhisperForConditionalGeneration          12.3 GB
+INV OpenAI/whisper-large-v3                                                WhisperForConditionalGeneration          18.5 GB
+INV OpenAI/whisper-large-v3-turbo                                          WhisperForConditionalGeneration           1.6 GB
+INV OpenAI/whisper-medium                                                  WhisperForConditionalGeneration           6.1 GB
+INV OpenAI/whisper-small                                                   WhisperForConditionalGeneration           1.9 GB
+INV OpenAI/whisper-tiny                                                    WhisperForConditionalGeneration           0.3 GB
+INV OpenGVLab/InternVL2-2B                                                 InternVLChatModel                         4.4 GB
+INV Qwen/Qwen2.5-0.5B-Instruct                                             Qwen2ForCausalLM                          1.0 GB
+INV Qwen/Qwen2.5-14B-Instruct                                              Qwen2ForCausalLM                         29.5 GB
+INV Qwen/Qwen2.5-1.5B-Instruct                                             Qwen2ForCausalLM                          3.1 GB
+INV Qwen/Qwen2.5-32B-Instruct                                              Qwen2ForCausalLM                         65.5 GB
+INV Qwen/Qwen2.5-3B-Instruct                                               Qwen2ForCausalLM                          6.2 GB
+INV Qwen/Qwen2.5-7B-Instruct                                               Qwen2ForCausalLM                         15.2 GB
+INV Qwen/Qwen2.5-7B-Instruct-GPTQ-Int4                                     Qwen2ForCausalLM                          5.6 GB
+INV Qwen/Qwen2.5-7B-Instruct-GPTQ-Int8                                     Qwen2ForCausalLM                          8.9 GB
+INV Qwen/Qwen2.5-Math-1.5B-Instruct                                        Qwen2ForCausalLM                          3.1 GB
+INV Qwen/Qwen2-VL-7B-Instruct                                              Qwen2VLForConditionalGeneration          16.6 GB
+INV Qwen/Qwen3-32B                                                         Qwen3ForCausalLM                         65.5 GB
+INV Qwen/Qwen3-4B-Instruct-2507                                            Qwen3ForCausalLM                          8.0 GB
+INV Qwen/Qwen3-4B-Thinking-2507                                            Qwen3ForCausalLM                          8.0 GB
+INV Qwen/Qwen3.5-4B                                                        Qwen3_5ForConditionalGeneration           9.3 GB
+INV Qwen/Qwen3.5-9B                                                        Qwen3_5ForConditionalGeneration          19.3 GB
+INV Qwen/Qwen3-8B                                                          Qwen3ForCausalLM                         16.4 GB
+INV Salesforce/blip2-flan-t5-xl                                            Blip2ForConditionalGeneration            31.5 GB
+INV Salesforce/blip2-opt-2.7b                                              Blip2ForConditionalGeneration            31.0 GB
+INV Salesforce/blip2-opt-6.7b                                              Blip2ForConditionalGeneration            63.7 GB
+INV Salesforce/blip-image-captioning-base                                  BlipForConditionalGeneration              1.0 GB
+INV Salesforce/blip-image-captioning-large                                 BlipForConditionalGeneration              3.8 GB
+INV Salesforce/blip-vqa-base                                               BlipForQuestionAnswering                  3.1 GB
+INV Sentence-Transformers/all-distilroberta-v1                             RobertaForMaskedLM                        0.7 GB
+INV Sentence-Transformers/all-MiniLM-L12-v2                                BertModel                                 0.3 GB
+INV Sentence-Transformers/all-MiniLM-L6-v2                                 BertModel                                 0.2 GB
+INV Sentence-Transformers/all-mpnet-base-v2                                MPNetForMaskedLM                          0.9 GB
+INV Sentence-Transformers/distiluse-base-multilingual-cased-v2             DistilBertModel                           1.1 GB
+INV Sentence-Transformers/gtr-t5-xxl                                       T5EncoderModel                           19.5 GB
+INV Sentence-Transformers/LaBSE                                            BertModel                                 1.9 GB
+INV Sentence-Transformers/paraphrase-MiniLM-L3-v2                          BertModel                                 0.1 GB
+INV Sentence-Transformers/paraphrase-MiniLM-L6-v2                          BertModel                                 0.2 GB
+INV Sentence-Transformers/paraphrase-mpnet-base-v2                         MPNetModel                                0.9 GB
+INV Sentence-Transformers/paraphrase-multilingual-MiniLM-L12-v2            BertModel                                 0.9 GB
+INV Sentence-Transformers/paraphrase-multilingual-mpnet-base-v2            XLMRobertaModel                           2.2 GB
+INV Sentence-Transformers/stsb-roberta-base                                RobertaModel                              1.0 GB
+INV Timm/mvitv2_base_cls.fb_inw21k                                         ?                                         0.5 GB
+INV Timm/mvitv2_huge_cls.fb_inw21k                                         ?                                         5.6 GB
+INV Timm/mvitv2_large_cls.fb_inw21k                                        ?                                         1.9 GB
+INV Timm/mvitv2_large.fb_in1k                                              ?                                         1.7 GB
+INV Timm/mvitv2_small.fb_in1k                                              ?                                         0.3 GB
+INV Timm/mvitv2_tiny.fb_in1k                                               ?                                         0.2 GB
+INV TinyLlama/TinyLlama-1.1B-Chat-v1.0                                     LlamaForCausalLM                          2.2 GB
+INV TsinghuaC31/Llama-3.1-8B-UltraMedical                                  LlamaForCausalLM                         16.1 GB
+INV TsinghuaC31/Llama-3-70B-UltraMedical                                   LlamaForCausalLM                        141.1 GB
+INV TsinghuaC31/Llama-3-8B-UltraMedical                                    LlamaForCausalLM                         16.1 GB
+INV UNIVA-Bllossom/DeepSeek-llama3.1-Bllossom-8B                           LlamaForCausalLM                         16.1 GB
+INV UNIVA-Bllossom/DeepSeek-llama3.3-Bllossom-70B                          LlamaForCausalLM                        141.1 GB
+INV UNIVA-Bllossom/DeepSeek-qwen-Bllossom-32B                              Qwen2ForCausalLM                         65.5 GB
+INV Vaiv/GeM2-Llamion-14B-Base                                             LlamaForCausalLM                         29.0 GB
+INV Vaiv/GeM2-Llamion-14B-Chat                                             LlamaForCausalLM                         29.0 GB
+INV Vaiv/GeM2-Llamion-14B-LongChat                                         LlamaForCausalLM                         29.0 GB
+INV local: $GB_ROOT/models: facebook local McGill-NLP T004_manifest.json tokenizers  $GB_ROOT/models/local: AfriqueQwen3.5-9B-Instruct-textview 
+INV HF login: none
+INV GPU 0, 23656 MiB, 46068 MiB
+INV GPU 1, 23592 MiB, 46068 MiB
+INV GPU 2, 24276 MiB, 46068 MiB
+INV GPU 3, 23800 MiB, 46068 MiB
+INV GPU 4, 23546 MiB, 46068 MiB
+INV GPU 5, 23604 MiB, 46068 MiB
+INV GPU 6, 27930 MiB, 46068 MiB
+INV GPU 7, 26036 MiB, 46068 MiB
+INV GPU 8, 41126 MiB, 46068 MiB
+INV GPU 9, 23848 MiB, 46068 MiB
+E4 calibration on 264 review-dropped held-out answers: tau = 2.7 (balanced accuracy 0.631)
+E4 pre-registered: reranker-gated RAG has fewer low-scored answers than agent_noverify and agent_full under gold removal at no lower answered quality; disproved if its low-scored rate is not below both.
+E4 system rag_naive+rerank_gate | n 184 | coverage_pct 77.7 | answered_mean 4.448 | low_scored_pct_of_all 3.8 | abstain_pct 22.3
+E4 system rag_naive (no gate) | n 184 | coverage_pct 100.0 | answered_mean 4.382 | low_scored_pct_of_all 4.9 | abstain_pct 0.0
+E4 system agent_noverify | n 184 | coverage_pct 96.2 | answered_mean 4.377 | low_scored_pct_of_all 6.5 | abstain_pct 3.8
+E4-MATCHED@clean rag gated to agent_noverify coverage 96.2%: answered_mean 4.399 low_scored_pct_of_all 4.9 vs agent_noverify 4.377 / 6.5
+E4 system agent_full | n 184 | coverage_pct 91.3 | answered_mean 4.123 | low_scored_pct_of_all 7.1 | abstain_pct 8.7
+E4-MATCHED@clean rag gated to agent_full coverage 91.3%: answered_mean 4.427 low_scored_pct_of_all 4.9 vs agent_full 4.123 / 7.1
+E4-AURC@clean reranker 0.045 vs no-signal 0.049
+E4 system rag_naive+rerank_gate@nogold | n 184 | coverage_pct 42.9 | answered_mean 3.835 | low_scored_pct_of_all 3.3 | abstain_pct 57.1
+E4 system rag_naive (no gate)@nogold | n 184 | coverage_pct 100.0 | answered_mean 3.563 | low_scored_pct_of_all 15.8 | abstain_pct 0.0
+E4 system agent_noverify@nogold | n 184 | coverage_pct 90.8 | answered_mean 3.481 | low_scored_pct_of_all 21.7 | abstain_pct 9.2
+E4-MATCHED@nogold rag gated to agent_noverify coverage 90.8%: answered_mean 3.635 low_scored_pct_of_all 12.5 vs agent_noverify 3.481 / 21.7
+E4 system agent_full@nogold | n 184 | coverage_pct 73.9 | answered_mean 3.1 | low_scored_pct_of_all 23.9 | abstain_pct 26.1
+E4-MATCHED@nogold rag gated to agent_full coverage 73.9%: answered_mean 3.721 low_scored_pct_of_all 8.7 vs agent_full 3.1 / 23.9
+E4-AURC@nogold reranker 0.092 vs no-signal 0.158
+DONE abstain in 0s
+qdrant already running (pid 3849689) on 46333
+GPU 8 (12:27)
+vLLM ready
+E1 pre-registered: passage-grounded variants (ctx, ref_ctx) beat ref on system-level agreement on BOTH sets; disproved if ref has equal or better pair_sign_agree and kendall on the blind sheet.
+E1 [afriqueqwen9b] blind ref             n 150 | qwk 0.705 | qwk_lo 0.615 | qwk_hi 0.782 | spearman 0.72 | bias 0.351 | kendall_systems 0.6 | pair_sign_agree 8/10 | rag_naive-closed human +1.45 judge +0.82 [+0.19, +1.44] | rag_naive-rag_tt_nllb human +1.35 judge +0.91 [+0.20, +1.57] | agent_full-rag_naive human -0.60 judge -0.81 [-1.40, -0.29] | closed_tt_self-closed human +0.22 judge +0.38 [-0.07, +0.83]
+E1 [afriqueqwen9b] dev   ref             n 108 | qwk 0.698 | qwk_lo 0.588 | qwk_hi 0.79 | spearman 0.687 | bias 0.244 | kendall_systems -1.0 | pair_sign_agree 0/1 | rag-closed human +0.63 judge -0.12 [-0.56, +0.34]
+E1 [afriqueqwen9b] blind ctx             n 150 | qwk 0.624 | qwk_lo 0.518 | qwk_hi 0.723 | spearman 0.659 | bias 0.584 | kendall_systems 0.8 | pair_sign_agree 9/10 | rag_naive-closed human +1.45 judge +0.76 [+0.20, +1.31] | rag_naive-rag_tt_nllb human +1.35 judge +1.19 [+0.53, +1.78] | agent_full-rag_naive human -0.60 judge -0.54 [-1.01, -0.10] | closed_tt_self-closed human +0.22 judge +0.09 [-0.29, +0.48]
+E1 [afriqueqwen9b] dev   ctx             n 108 | qwk 0.691 | qwk_lo 0.583 | qwk_hi 0.783 | spearman 0.687 | bias 0.238 | kendall_systems 1.0 | pair_sign_agree 1/1 | rag-closed human +0.63 judge +0.18 [-0.29, +0.65]
+E1 [afriqueqwen9b] blind ref_ctx         n 150 | qwk 0.744 | qwk_lo 0.651 | qwk_hi 0.819 | spearman 0.745 | bias 0.242 | kendall_systems 0.8 | pair_sign_agree 9/10 | rag_naive-closed human +1.45 judge +1.04 [+0.51, +1.61] | rag_naive-rag_tt_nllb human +1.35 judge +1.53 [+1.02, +2.01] | agent_full-rag_naive human -0.60 judge -0.87 [-1.40, -0.40] | closed_tt_self-closed human +0.22 judge +0.07 [-0.37, +0.49]
+E1 [afriqueqwen9b] dev   ref_ctx         n 108 | qwk 0.801 | qwk_lo 0.715 | qwk_hi 0.868 | spearman 0.774 | bias 0.157 | kendall_systems 1.0 | pair_sign_agree 1/1 | rag-closed human +0.63 judge +0.56 [+0.08, +1.02]
+E1 [afriqueqwen9b] blind ref_ctx_nocite  n 150 | qwk 0.72 | qwk_lo 0.62 | qwk_hi 0.81 | spearman 0.728 | bias 0.317 | kendall_systems 0.8 | pair_sign_agree 9/10 | rag_naive-closed human +1.45 judge +1.09 [+0.61, +1.58] | rag_naive-rag_tt_nllb human +1.35 judge +1.52 [+0.89, +2.11] | agent_full-rag_naive human -0.60 judge -0.84 [-1.46, -0.29] | closed_tt_self-closed human +0.22 judge +0.13 [-0.33, +0.58]
+E1 [afriqueqwen9b] dev   ref_ctx_nocite  n 108 | qwk 0.797 | qwk_lo 0.704 | qwk_hi 0.87 | spearman 0.789 | bias 0.133 | kendall_systems 1.0 | pair_sign_agree 1/1 | rag-closed human +0.63 judge +0.78 [+0.29, +1.27]
+E1c arm closed | ref_ctx 2.995 | ref_ctx_nocite 2.98 | shift -0.014 | has_markers_pct 0.0
+E1c arm closed_tt_nllb | ref_ctx 2.797 | ref_ctx_nocite 2.772 | shift -0.025 | has_markers_pct 0.0
+E1c arm closed_tt_self | ref_ctx 3.285 | ref_ctx_nocite 3.207 | shift -0.079 | has_markers_pct 0.0
+E1c arm rag_naive | ref_ctx 4.382 | ref_ctx_nocite 4.402 | shift 0.02 | has_markers_pct 71.7
+E1c arm rag_tt_nllb | ref_ctx 3.19 | ref_ctx_nocite 3.103 | shift -0.087 | has_markers_pct 0.0
+E1c arm rag_tt_self | ref_ctx 3.801 | ref_ctx_nocite 3.786 | shift -0.014 | has_markers_pct 0.0
+E1c arm agent_noverify | ref_ctx 4.274 | ref_ctx_nocite 4.246 | shift -0.027 | has_markers_pct 61.4
+E1c arm agent_full | ref_ctx 3.884 | ref_ctx_nocite 3.859 | shift -0.025 | has_markers_pct 69.6
+E1c-PAIR nocite rag_naive - rag_tt_self: +0.62 [+0.42, +0.81] p_holm=0.0
+E1c-PAIR nocite rag_naive - rag_tt_nllb: +1.30 [+1.10, +1.51] p_holm=0.0
+E1c-PAIR nocite rag_naive - closed: +1.42 [+1.19, +1.66] p_holm=0.0
+E1c pre-registered: citation bonus exists if rag_naive shift < -0.15 while cascade shifts are within 0.05; the native-vs-cascade claim survives if the nocite pairs keep CIs above 0.
+DONE judge-inputs in 1532s
+E5 pre-registered: none (descriptive). Expect a drop for questions whose gold passage is tier C (web, mdh).
+E5 all       n=184 rag_tierAP 3.592 | rag_full 4.382 | closed 2.995 | tierAP - full {'n': 184, 'diff': -0.79, 'lo': -1.013, 'hi': -0.556, 'p': 0.0} | tierAP - closed {'n': 184, 'diff': 0.598, 'lo': 0.335, 'hi': 0.873, 'p': 0.0}
+E5 gold A/P  n=97 rag_tierAP 4.412 | rag_full 4.464 | closed 2.986 | tierAP - full {'n': 97, 'diff': -0.052, 'lo': -0.23, 'hi': 0.137, 'p': 0.5805} | tierAP - closed {'n': 97, 'diff': 1.426, 'lo': 1.141, 'hi': 1.756, 'p': 0.0}
+E5 gold C    n=87 rag_tierAP 2.678 | rag_full 4.291 | closed 3.004 | tierAP - full {'n': 87, 'diff': -1.613, 'lo': -1.981, 'hi': -1.203, 'p': 0.0} | tierAP - closed {'n': 87, 'diff': -0.326, 'lo': -0.709, 'hi': 0.065, 'p': 0.083}
+DONE tierfilter in 383s
+E6 seed 101 closed          mean 2.966
+E6 seed 101 rag_naive       mean 4.406
+E6 seed 101 agent_noverify  mean 4.196
+E6 seed 101 agent_full      mean 3.928
+E6 seed 202 closed          mean 2.814
+E6 seed 202 rag_naive       mean 4.462
+E6 seed 202 agent_noverify  mean 4.303
+E6 seed 202 agent_full      mean 3.964
+E6 pre-registered: the ordering rag_naive >= agent_noverify > agent_full > closed holds in every run; rag_naive - agent_noverify pooled CI includes 0 or is positive.
+E6 run orig   order rag_naive > agent_noverify > agent_full > closed | closed 2.995 rag_naive 4.382 agent_noverify 4.274 agent_full 3.884
+E6 run s101   order rag_naive > agent_noverify > agent_full > closed | closed 2.966 rag_naive 4.406 agent_noverify 4.196 agent_full 3.928
+E6 run s202   order rag_naive > agent_noverify > agent_full > closed | closed 2.814 rag_naive 4.462 agent_noverify 4.303 agent_full 3.964
+E6-PAIR pooled over 3 runs rag_naive - closed: +1.49 [+1.31, +1.67] p_holm=0.0
+E6-PAIR pooled over 3 runs agent_noverify - rag_naive: -0.16 [-0.28, -0.05] p_holm=0.0035
+E6-PAIR pooled over 3 runs agent_full - rag_naive: -0.49 [-0.64, -0.35] p_holm=0.0
+E6-PAIR pooled over 3 runs agent_full - agent_noverify: -0.33 [-0.47, -0.19] p_holm=0.0
+E6 per-question SD across runs: closed 0.57 rag_naive 0.39 agent_noverify 0.42 agent_full 0.48
+DONE seeds in 3457s
+vLLM stopped
+STATUS: PASS

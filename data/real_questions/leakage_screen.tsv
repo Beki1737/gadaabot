@@ -1,0 +1,80 @@
+id	writer	domain	excluded	kb_5gram_hits	kb_6gram_hits	kb_5gram_example	max_jacc_generated	nearest_generated	max_jacc_rq	nearest_rq	question
+RQ-W04-01	W04	health		0	0		0.2	dev0353	0.0		Haati ulfaa busaa irraa akkamitti of ittissiti?
+RQ-W04-02	W04	health		0	0		0.222	dev0001	0.0	RQ-W04-01	Daa'imni koo garaa kaasaa yeroo qabu harma xuuxuu dhiisuu qaba moo itti fufuu qaba?
+RQ-W04-03	W04	health		0	0		0.143	dev0151	0.067	RQ-W04-01	Talaalliin BCG TB irraa guutummaatti nama eegaa? Yoom kennama?
+RQ-W04-04	W04	health		0	0		0.182	dev0260	0.059	RQ-W04-03	Qorannoon HIV maal jechuudha? Eessatti fi yoom argachuu dandeenya?
+RQ-W04-05	W04	health		0	0		0.214	dev0353	0.3	RQ-W04-01	Koroonaa irraa akkamitti of ittisuu dandeenya?
+RQ-W04-06	W04	health		0	0		0.118	dev0061	0.062	RQ-W04-04	Dhukkubni dhiigaa hir'achuu (anemia) maali? Maal nyaachuun furama?
+RQ-W04-07	W04	health		0	0		0.214	dev0015	0.062	RQ-W04-05	Nyaata mana keessatti akkamitti qulqulluu eegna? Nyaata kan bulee nyaachuun rakkoo qabaa?
+RQ-W04-08	W04	health		0	0		0.071	dev0094	0.062	RQ-W04-06	Dhugaadhaa sukkaara baay'ee nyaachuun qofaan dhukkuba sukkaaraa namatti fida?
+RQ-W04-09	W04	health		0	0		0.25	dev0060	0.056	RQ-W04-06	Daa'imni wanta tokko liqimsee hafuura baafachuu yoo dadhabe maal gochuu qabna?
+RQ-W04-10	W04	health		0	0		0.15	dev0087	0.067	RQ-W04-01	Haati daa'ima dhalatte booda mallattoo balaa kam ilaaluu qabdi?
+RQ-W04-11	W04	education		0	0		0.143	dev0271	0.105	RQ-W04-07	Onneen hojii maalii hojjetti? Dhiigni qaama keenya keessatti akkamitti naanna'a?
+RQ-W04-12	W04	education		0	0		0.154	dev0135	0.25	RQ-W04-05	Maaliif biyyon lafaa dhiqama (soil erosion)? Akkamitti ittisuu dandeenya?
+RQ-W04-13	W04	education		0	0		0.143	dev0316	0.111	RQ-W04-05	Firaakshinii 1/4 + 1/2 akkamitti walitti dabalna?
+RQ-W04-14	W04	education		0	0		0.2	dev0231	0.077	RQ-W04-13	Bunni kiiloo 2 birrii 160 yoo ta'e, kiiloon 5 birrii meeqa ta'a? Akkamitti herregna?
+RQ-W04-15	W04	education		0	0		0.154	dev0243	0.0	RQ-W04-14	Gaarri dheeraan Itoophiyaa keessaa isa kami? Eessa jira?
+RQ-W04-16	W04	education		0	0		0.087	dev0257	0.071	RQ-W04-06	Waraanni Adwaa maali? Yoom ta'e, eenyutu moo'e?
+RQ-W04-18	W04	education		0	0		0.25	dev0175	0.167	RQ-W04-05	Kitaaba yeroo dubbifnu waan dubbifne akkamitti yaadachuu dandeenya?
+RQ-W04-19	W04	culture		0	0		0.083	dev0069	0.143	RQ-W04-03	Sirni Gadaa UNESCO irraa beekamtii argateeraa? Yoom?
+RQ-W04-20	W04	culture		0	0		0.2	dev0305	0.077	RQ-W04-16	Irreechi Malkaa fi Irreechi Tulluu garaagarummaan isaanii maali?
+RQ-W03-01	W03	health		0	0		0.308	dev0175	0.2	RQ-W04-18	Yeroo ho'a qaamaa qabaannu mallattoo busaa dha? Akkamitti beekuu dandeenya?
+RQ-W03-02	W03	health		0	0		0.222	dev0160	0.267	RQ-W04-12	Ijoolleen yeroo baay'ee maaliif garaa kaasadhaan qabamu? Akkamitti ittisuu dandeenya?
+RQ-W03-03	W03	health		0	0		0.125	dev0316	0.095	RQ-W04-03	Dhukubnnii TB akkamitti nama namattii darba? Nama TB qabu waliin mana tokko keessa jiraachuun dhibichaa nama qabsiisaa?
+RQ-W03-04	W03	health		0	0		0.208	dev0087	0.143	RQ-W04-10	Haati HIV qabdu daa'ima ishee harma hoosisuu dandeessii? Daa'imni akka hin qabamneef maal gochuu qabdi?
+RQ-W03-05	W03	health		0	0		0.118	dev0137	0.188	RQ-W04-03	Talaalliin koroonaa eegumsaa gahaa qabaa? Dhukkuba cimaa irraa nama ittisaa?
+RQ-W03-06	W03	health		0	0		0.133	dev0336	0.12	RQ-W03-04	Haati ulfaa nyaata maal nyaachuu qabdi? Qorichi iron-folic acid ulfaa irratti maaliif kennama?
+RQ-W03-07	W03	health		0	0		0.25	dev0295	0.071	RQ-W04-12	Mana fincaanii fayyadamuun maaliif barbaachisaa dha?
+RQ-W03-08	W03	health		0	0		0.235	dev0001	0.111	RQ-W04-18	Dhiibbaan dhiigaa koo olka'uu isaa akkamitti beeka? Qoricha yeroo dheeraaf fudhachuu qabaa?
+RQ-W03-09	W03	health		0	0		0.235	dev0033	0.222	RQ-W04-09	Madaan dhiiga baay'ee yaasu yoo qabaate gargaarsa duraa maal gochuu qabna?
+RQ-W03-10	W03	health		0	0		0.118	dev0333	0.111	RQ-W04-09	Daa'imni haaraan dhalate akkamitti kunuunsuu qabna? Mallattoon balaa maali?
+RQ-W03-11	W03	education		0	0		0.176	dev0305	0.333	RQ-W04-20	Dhangala'aa, jajjaboo fi gaazii garaagarummaan isaanii maali? Fakkeenya kenni.
+RQ-W03-12	W03	education		0	0		0.235	dev0113	0.105	RQ-W03-02	Maaliif ji'i bifa isaa jijjiira? Yeroo tokko guutuu, yeroo tokko ammoo xiqqoo mul'ata.
+RQ-W03-13	W03	education		0	0		0.375	dev0260	0.143	RQ-W04-04	Lakkoofsi kophxii jechuun maal jechuudha? Fakkeenya kenni.
+RQ-W03-14	W03	education		0	0		0.1	dev0316	0.1	RQ-W04-13	Bal'inni (area) rogaa sadii (triangle) akkamitti herregama?
+RQ-W03-15	W03	education		0	0		0.182	dev0315	0.143	RQ-W03-10	Kaartaa akkamitti dubbisna? Mallattoon kaartaa (legend) maal agarsiisa?
+RQ-W03-16	W03	education		0	0		0.1	dev0363	0.083	RQ-W03-07	Dhaabbanni Mootummoota Gamtoomanii (UN) maali? Maaliif hundaa'e?
+RQ-W03-17	W03	education		0	0		0.154	dev0166	0.167	RQ-W03-11	Mammaaksi maali? Fakkeenya tokkon ibsi.
+RQ-W03-18	W03	education		0	0		0.211	dev0028	0.143	RQ-W04-09	Barsiisaa gaaffii gaafachuu nan sodaadha. Wanta hin hubanne yoo ta'e maal gochuun qaba?
+RQ-W03-19	W03	culture		0	0		0.154	dev0236	0.182	RQ-W03-07	Siiqqeen maali? Dubartoota Oromoo biratti maaliif barbaachisaa?
+RQ-W03-20	W03	culture		0	0		0.143	dev0123	0.091	RQ-W04-13	Jaarsa biyyaa jechuun eenyu? Dhimmoota hawaasaa akkamitti hiika?
+RQ-W02-01	W02	health		0	0		0.235	dev0031	0.143	RQ-W04-09	Dhugaadhaa, bishaan naannoo mana tokkotti kuufamee dhaabbatee jiru busaa fida? Maal gochuu qabna?
+RQ-W02-02	W02	health		0	0		0.133	dev0333	0.167	RQ-W04-16	ORS maali? Daa'imaaf akkamitti qopheessina, yoom kennina?
+RQ-W02-03	W02	health		0	0		0.2	dev0264	0.167	RQ-W03-08	Qoricha TB yeroo dheeraaf fudhachuun maaliif barbaachisaa? TB ni fayyaa?
+RQ-W02-04	W02	health		0	0		0.353	dev0019	0.167	RQ-W02-03	Yoo HIV qabaadhe, fayyaa-qabeessa ta'ee yeroo dheeraaf jiraachuuf maal gochuu qaba?
+RQ-W02-05	W02	health		0	0		0.312	dev0019	0.294	RQ-W02-04	Mallattoon koroonaa maali? Yoo mallattoo kana qabaadhe maal gochuu qaba?
+RQ-W02-06	W02	health		0	0		0.385	dev0060	0.188	RQ-W02-05	Daa'imni koo ji'a lama qofa, gubaa qaba. Maal gochuu qaba?
+RQ-W02-07	W02	health		0	0		0.188	dev0049	0.235	RQ-W03-10	Daa'imni nyaata gahaa akka hin arganne (malnutrition) akkamitti beekna? Mallattoon isaa maali?
+RQ-W02-08	W02	health		0	0		0.3	dev0040	0.214	RQ-W04-07	Bishaan dhugaatii mana keessatti akkamitti qulqulleessina?
+RQ-W02-09	W02	health		0	0		0.25	dev0016	0.231	RQ-W03-10	Mallattoon dhukkuba sukkaaraa maali? Akkamitti beekuu dandeenya?
+RQ-W02-10	W02	health		0	0		0.167	dev0198	0.235	RQ-W03-06	Haati ulfaa maaliif talaallii tetanasii (TT) fudhachuu qabdi?
+RQ-W02-11	W02	education		0	0		0.2	dev0268	0.1	RQ-W03-07	Maaliif halkanii fi guyyaan jira?
+RQ-W02-12	W02	education		1	0	maal maal of keessaa qaba	0.267	dev0295	0.231	RQ-W03-07	Qilleensi maal maal of keessaa qaba? Maaliif oksijiiniin nuuf barbaachisaa dha?
+RQ-W02-13	W02	education		0	0		0.3	dev0260	0.231	RQ-W03-13	Firaakshinii 1/2 fi 2/4 wal-qixa jechuun maal jechuudha? Akkamitti mirkaneessina?
+RQ-W02-14	W02	education		0	0		0.214	dev0251	0.154	RQ-W02-13	Giddugaleessa (average) lakkoofsota 4, 6, 8 fi 10 akkamitti herregna?
+RQ-W02-15	W02	education		0	0		0.182	dev0076	0.071	RQ-W04-15	Laga Abbaay eessaa jalqabee gara eessa deema?
+RQ-W02-16	W02	education		0	0		0.154	dev0181	0.111	RQ-W02-11	Waraanni Addunyaa Lammaffaa maaliif jalqabame?
+RQ-W02-17	W02	education		0	0		0.188	dev0166	0.5	RQ-W03-11	Maqaa fi gochima garaagarummaan isaanii maali? Fakkeenya naaf kenni.
+RQ-W02-18	W02	education		0	0		0.158	dev0002	0.176	RQ-W04-18	Mucaan koo gabatee baay'isuu (multiplication table) yaadachuu hin danda'u. Akkamitti gargaaruu dandeenya?
+RQ-W02-19	W02	culture		0	0		0.062	dev0166	0.167	RQ-W04-19	Sirni Gadaa maali? Abbaan Gadaa waggaa meeqaaf bulcha?
+RQ-W02-20	W02	culture		0	0		0.154	dev0179	0.133	RQ-W02-07	Qaalluun eenyu? Hojiin isaa maali?
+RQ-W01-01	W01	health		0	0		0.167	dev0094	0.5	RQ-W02-09	Mallattoon dhukkuba busaa maali? Akkamitti ofirra ittisuu dandeenya?
+RQ-W01-02	W01	health		0	0		0.2	dev0060	0.263	RQ-W02-06	Ilmi koo ji'a 8 dha, garaa kaasaa qaba. Mana keessattii maal gochuu qaba, yoom gara mana yaalaa geessuu qaba?
+RQ-W01-03	W01	health		0	0		0.267	dev0018	0.312	RQ-W02-06	Qufaan koo torban lama ol tureera. TB ta'uu danda'aa? Maal gochuu qaba?
+RQ-W01-04	W01	health		0	0		0.105	dev0359	0.083	RQ-W03-03	Dhugaadhaa HIV harka wal-qabuudhaan, wal-tuquudhaan ykn nyaata waliin nyaachuudhaan nama qabsiisa?
+RQ-W01-05	W01	health		0	0		0.12	dev0112	0.235	RQ-W04-10	Haati ulfaa mallattoo hamaa kam yoo argite battalumatti mana yaalaa deemuu qabdi?
+RQ-W01-06	W01	health		0	0		0.13	dev0096	0.091	RQ-W03-01	Dhugaadhaa talaalliin ijoollee dhukkubsa? Talaallii ergaa fudhatee booda ho'a qaamaa yoo qabaate rakkinna qaba?
+RQ-W01-07	W01	health		0	0		0.2	dev0218	0.2	RQ-W02-14	Harka yoom fi akkamitti dhiqachuu qabna?
+RQ-W01-08	W01	health		0	0		0.067	dev0363	0.143	RQ-W03-08	Maaliif soogiddi baay'ee nyaachuun dhiibbaa dhiigaa ol kaasa? Dhiibbaan dhiigaa olka'uun mallattoo qabaa?
+RQ-W01-09	W01	health		0	0		0.312	dev0060	0.235	RQ-W02-06	Daa'imni koo bishaan ho'aan yoo irrattii dhangala'ee gargaarsa duraa maal gochuun qaba?
+RQ-W01-10	W01	health		0	0		0.12	dev0087	0.16	RQ-W03-04	Daa'imni ji'a jahaa booda nyaata maal kennuu jalqabna? Harma hoosisuu hanga yoomiitti itti fufna?
+RQ-W01-11	W01	education		0	0		0.25	dev0202	0.231	RQ-W02-13	Rooba akkamitti uumama? Marsaan bishaanii maal jechuudha?
+RQ-W01-12	W01	education		0	0		0.167	dev0015	0.176	RQ-W02-07	Footosinteesiin maali? Biqiltoonni akkamitti nyaata ofii isaanii oomishu?
+RQ-W01-13	W01	education		0	0		0.143	dev0174	0.308	RQ-W04-14	Parsantii (%) akkamitti herregna? Fakkeenyaaf, birrii 500 keessaa 20% meeqa?
+RQ-W01-14	W01	education		0	0		0.286	dev0191	0.211	RQ-W04-14	Bal’ina reektaangilii tokkoo dheerinni (length) isaa meetira 8, bal'inni (width) isaa meetira 5 yoo ta'e akkamitti herregna?
+RQ-W01-15	W01	education		0	0		0.182	dev0254	0.154	RQ-W04-10	Itoophiyaan biyyoota kam waliin daangaa qabdi?
+RQ-W01-16	W01	education		0	0		0.231	dev0295	0.3	RQ-W03-07	Seenaan maaliif barbaachisaa dha? Barattoonni maaliif seenaa baratu?
+RQ-W01-17	W01	education		0	0		0.294	dev0199	0.188	RQ-W04-04	Dubbachiistonni Afaan Oromoo meeqa? Dubbachiistuu gabaabaa fi dheeraa maal jechuudha?
+RQ-W01-18	W01	education		0	0		0.143	dev0084	0.077	RQ-W04-13	Qormaata dura akkamitti qophaa'uu qaba? Halkan guutuu dubbisuun gaarii dhaa?
+RQ-W01-19	W01	culture		0	0		0.091	dev0218	0.3	RQ-W04-20	Irreechi maali? Yoom fi eessatti kabajama?
+RQ-W01-20	W01	culture		0	0		0.125	dev0336	0.182	RQ-W04-06	Waaqeffannaan maali? Waaqeffattoonni maal amanu?

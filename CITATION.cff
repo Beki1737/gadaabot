@@ -1,6 +1,43 @@
 cff-version: 1.2.0
-message: "If you use GadaaBot, please cite the paper."
-title: "GadaaBot 2.0: native Afaan Oromoo retrieval-augmented question answering"
-authors:
-  - name: "Beka"
+message: "If you use GadaaBot 2.0, its data or its evaluation protocol, please cite the paper below."
+type: software
+title: "GadaaBot 2.0: native Afaan Oromoo retrieval-augmented question answering for health and education"
+version: "1.0"
+date-released: "2026-11-27"
 license: Apache-2.0
+repository-code: "https://github.com/Beki1737/gadaabot"
+keywords:
+  - retrieval-augmented generation
+  - low-resource languages
+  - Afaan Oromoo
+  - agentic RAG
+  - LLM-as-a-judge
+authors:
+  - family-names: "Gudeta"
+    given-names: "Becky Firomssa"
+    affiliation: "Department of AI & Big Data, Woosong University, Daejeon, Republic of Korea"
+    orcid: "https://orcid.org/0009-0005-4777-1456"
+  - family-names: "Ojeda Rosales"
+    given-names: "Daniel"
+    affiliation: "Department of AI & Big Data, Woosong University, Daejeon, Republic of Korea"
+    orcid: "https://orcid.org/0009-0001-0828-308X"
+  - family-names: "Kim"
+    given-names: "Young-il"
+    affiliation: "Department of AI & Big Data, Woosong University, Daejeon, Republic of Korea"
+    orcid: "https://orcid.org/0009-0005-1129-7932"
+preferred-citation:
+  type: article
+  title: "Native Evidence, Not More Agents: Retrieval-Augmented QA for Afaan Oromoo Health and Education"
+  authors:
+    - family-names: "Gudeta"
+      given-names: "Becky Firomssa"
+      orcid: "https://orcid.org/0009-0005-4777-1456"
+    - family-names: "Ojeda Rosales"
+      given-names: "Daniel"
+      orcid: "https://orcid.org/0009-0001-0828-308X"
+    - family-names: "Kim"
+      given-names: "Young-il"
+      orcid: "https://orcid.org/0009-0005-1129-7932"
+  journal: "Journal of Intelligent Information Systems"
+  status: submitted
+  year: 2026

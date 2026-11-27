@@ -1,0 +1,11 @@
+a	b	n	diff	lo	hi	p	wins	ties	losses	p_holm
+rag_naive	closed	79	0.599	0.338	0.873	0.0	44	18	17	0.0
+agent_full	closed	79	-0.591	-1.03	-0.152	0.006	29	8	42	0.024
+closed	closed_tt_nllb	79	0.08	-0.245	0.443	0.662	31	12	36	0.662
+closed	closed_tt_self	79	-0.734	-1.021	-0.435	0.0	15	16	48	0.0
+rag_naive	rag_tt_nllb	79	1.131	0.835	1.447	0.0	56	10	13	0.0
+rag_naive	rag_tt_self	79	0.401	0.089	0.696	0.0145	42	16	21	0.0435
+rag_tt_self	rag_tt_nllb	79	0.73	0.359	1.122	0.0005	46	11	22	0.0025
+agent_noverify	rag_naive	79	-0.236	-0.494	0.017	0.0625	27	17	35	0.125
+agent_full	agent_noverify	79	-0.954	-1.278	-0.637	0.0	12	19	48	0.0
+agent_full	rag_naive	79	-1.19	-1.553	-0.831	0.0	12	12	55	0.0

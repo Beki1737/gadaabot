@@ -1,0 +1,26 @@
+code installed: graph v5.1 + gadaabot.serve
+HUMAN2 arm rag_naive | n 30 | annotator1 3.83 | annotator2 4.03 | mean_both 3.93 | lo 3.42 | hi 4.4 | qwk_a1_a2 0.918
+HUMAN2 arm closed | n 30 | annotator1 2.4 | annotator2 2.57 | mean_both 2.48 | lo 2.03 | hi 2.92 | qwk_a1_a2 0.904
+HUMAN2 arm rag_tt_nllb | n 30 | annotator1 2.53 | annotator2 2.63 | mean_both 2.58 | lo 2.15 | hi 3.03 | qwk_a1_a2 0.88
+HUMAN2 arm agent_full | n 30 | annotator1 3.33 | annotator2 3.33 | mean_both 3.33 | lo 2.73 | hi 3.92 | qwk_a1_a2 0.912
+HUMAN2 arm closed_tt_self | n 30 | annotator1 2.67 | annotator2 2.73 | mean_both 2.7 | lo 2.23 | hi 3.17 | qwk_a1_a2 0.822
+HUMAN2-PAIR rag_naive - closed: +1.45 [+0.87, +2.02] n=30 W/T/L 24/4/2
+HUMAN2-PAIR rag_naive - rag_tt_nllb: +1.35 [+0.67, +1.95] n=30 W/T/L 21/4/5
+HUMAN2-PAIR closed - closed_tt_self: -0.22 [-0.57, +0.10] n=30 W/T/L 10/6/14
+HUMAN2-PAIR agent_full - rag_naive: -0.60 [-1.13, -0.13] n=30 W/T/L 4/15/11
+HUMAN2-IAA n=150 QWK 0.904 exact 0.647
+RELEASE QA: {'test': 184, 'dev': 39, 'dropped': 141}
+RELEASE KB: parents per tier {'C': 10153, 'A': 2212, 'P': 1044}; text published for tier A only
+RELEASE human + results written
+RELEASE folder: $GB_ROOT_release (12M), largest files:
+DISK before: 113G
+CLEAN candidate 17G $GB_ROOT/models/local/AfriqueQwen3.5-9B-it-cpt-control
+CLEAN candidate 17G $GB_ROOT/models/local/AfriqueQwen3.5-9B-it-cpt-ext
+CLEAN candidate 17G $GB_ROOT/models/local/AfriqueQwen3.5-9B-it-K0
+CLEAN candidate 17G $GB_ROOT/models/local/AfriqueQwen3.5-9B-it-orm-K4096
+CLEAN candidate 5.0G $GB_ROOT/models/local/AfriqueQwen3.5-9B-it-orm-K4096-s1
+CLEAN candidate 3 weight files in runs/T010c_m1, T016_ext, T016_control, T020_m1 (logs and JSON kept)
+KEEP-CHECK 2.2G	$GB_ROOT/models/McGill-NLP/AfriE5-Large-instruct
+KEEP-CHECK 17G	$GB_ROOT/models/McGill-NLP/AfriqueQwen3.5-9B-50Langs-Instruct-v1
+DISK after cleanup: 40G
+STATUS: PASS

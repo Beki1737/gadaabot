@@ -1,0 +1,81 @@
+project storage used: 113 GiB (cap 150)
+qdrant already running (pid 3849689) on 46333
+SERVE + AGENT on GPU 8 (07:45)
+vLLM ready on 127.0.0.1:48000
+NLLB on second GPU 6
+HELDOUT: 316 questions (excluded 54 iteration ids) | arms ['closed', 'closed_tt_nllb', 'closed_tt_self', 'rag_naive', 'rag_tt_nllb', 'rag_tt_self', 'agent_noverify', 'agent_full', 'closed@noisy', 'rag_naive@noisy', 'agent_noverify@noisy', 'rag_naive@nogold', 'agent_noverify@nogold', 'agent_full@nogold']
+RETRIEVAL: 46s | gold parent in top-4 260/316
+RESUME closed: 316 cached answers
+RESUME closed_tt_nllb: 316 cached answers
+RESUME closed_tt_self: 316 cached answers
+RESUME rag_naive: 316 cached answers
+RESUME rag_tt_nllb: 316 cached answers
+RESUME agent_noverify: 316 cached answers
+RESUME agent_full: 316 cached answers
+ARM closed@noisy done
+ARM rag_naive@noisy done | LLM calls/question 1.00
+ARM agent_noverify@noisy done | LLM calls/question 3.24
+ARM rag_naive@nogold done | LLM calls/question 1.00
+ARM agent_noverify@nogold done | LLM calls/question 3.38
+ARM agent_full@nogold done | LLM calls/question 5.09
+ARM rag_tt_self done
+JUDGE: 4424 answers (2212 reused from cache) in 951s
+ARM-RESULT arm closed | n 316 | judge 2.848 | lo 2.703 | hi 3.002 | health 2.913 | education 2.985 | abstain_pct 0.0 | confident_wrong_pct 40.5 | fallback_pct 0.0 | answered_judge 2.848 | median_s 7.75 | words 94.2 | english_ratio 0.005 | gold_in_ev_pct  | src_mdh 2.99 | src_oeb 2.98 | src_textbooks 3.18 | src_tico19 3.23 | src_webdomain 2.78 | src_wikipedia 2.34
+ARM-RESULT arm closed_tt_nllb | n 316 | judge 2.619 | lo 2.461 | hi 2.783 | health 2.883 | education 2.402 | abstain_pct 0.0 | confident_wrong_pct 47.5 | fallback_pct 0.0 | answered_judge 2.619 | median_s 1.07 | words 174.5 | english_ratio 0.005 | gold_in_ev_pct  | src_mdh 2.88 | src_oeb 2.33 | src_textbooks 2.5 | src_tico19 3.81 | src_webdomain 2.57 | src_wikipedia 2.29
+ARM-RESULT arm closed_tt_self | n 316 | judge 2.995 | lo 2.827 | hi 3.156 | health 3.063 | education 3.076 | abstain_pct 0.0 | confident_wrong_pct 37.7 | fallback_pct 0.0 | answered_judge 2.995 | median_s 19.4 | words 148.2 | english_ratio 0.005 | gold_in_ev_pct  | src_mdh 2.82 | src_oeb 3.06 | src_textbooks 3.43 | src_tico19 4.04 | src_webdomain 2.83 | src_wikipedia 2.61
+ARM-RESULT arm rag_naive | n 316 | judge 4.178 | lo 4.051 | hi 4.307 | health 4.067 | education 4.256 | abstain_pct 5.7 | confident_wrong_pct 4.1 | fallback_pct 0.0 | answered_judge 4.349 | median_s 6.93 | words 63.5 | english_ratio 0.003 | gold_in_ev_pct 82.3 | src_mdh 4.15 | src_oeb 4.47 | src_textbooks 4.01 | src_tico19 3.88 | src_webdomain 4.13 | src_wikipedia 4.35
+ARM-RESULT arm rag_tt_nllb | n 316 | judge 3.075 | lo 2.919 | hi 3.232 | health 3.089 | education 3.03 | abstain_pct 0.0 | confident_wrong_pct 34.2 | fallback_pct 0.0 | answered_judge 3.075 | median_s 2.41 | words 92.4 | english_ratio 0.005 | gold_in_ev_pct  | src_mdh 3.05 | src_oeb 2.59 | src_textbooks 2.97 | src_tico19 3.51 | src_webdomain 3.17 | src_wikipedia 3.13
+ARM-RESULT arm rag_tt_self | n 316 | judge 3.667 | lo 3.527 | hi 3.808 | health 3.619 | education 3.72 | abstain_pct 0.0 | confident_wrong_pct 17.4 | fallback_pct 0.0 | answered_judge 3.667 | median_s 62.32 | words 77.5 | english_ratio 0.007 | gold_in_ev_pct  | src_mdh 3.78 | src_oeb 3.53 | src_textbooks 3.4 | src_tico19 3.72 | src_webdomain 3.74 | src_wikipedia 3.69
+ARM-RESULT arm agent_noverify | n 316 | judge 4.137 | lo 4.013 | hi 4.262 | health 4.106 | education 4.14 | abstain_pct 7.3 | confident_wrong_pct 4.7 | fallback_pct 0.0 | answered_judge 4.356 | median_s 15.02 | words 58.9 | english_ratio 0.003 | gold_in_ev_pct 82.6 | src_mdh 4.47 | src_oeb 4.28 | src_textbooks 4.19 | src_tico19 3.55 | src_webdomain 4.05 | src_wikipedia 4.23
+ARM-RESULT arm agent_full | n 316 | judge 3.765 | lo 3.615 | hi 3.91 | health 3.729 | education 3.637 | abstain_pct 9.2 | confident_wrong_pct 10.1 | fallback_pct 31.6 | answered_judge 4.002 | median_s 18.86 | words 76.8 | english_ratio 0.003 | gold_in_ev_pct 82.3 | src_mdh 3.84 | src_oeb 3.82 | src_textbooks 3.46 | src_tico19 3.76 | src_webdomain 3.66 | src_wikipedia 4.16
+ARM-RESULT arm closed@noisy | n 315 | judge 2.597 | lo 2.449 | hi 2.743 | health 2.686 | education 2.55 | abstain_pct 0.0 | confident_wrong_pct 48.9 | fallback_pct 0.0 | answered_judge 2.597 | median_s 8.92 | words 103.6 | english_ratio 0.004 | gold_in_ev_pct  | src_mdh 2.37 | src_oeb 2.27 | src_textbooks 2.87 | src_tico19 3.47 | src_webdomain 2.59 | src_wikipedia 2.43
+ARM-RESULT arm rag_naive@noisy | n 316 | judge 4.003 | lo 3.859 | hi 4.14 | health 3.907 | education 4.006 | abstain_pct 4.4 | confident_wrong_pct 7.6 | fallback_pct 0.0 | answered_judge 4.116 | median_s 7.46 | words 67.7 | english_ratio 0.003 | gold_in_ev_pct 76.9 | src_mdh 4.24 | src_oeb 3.92 | src_textbooks 4.19 | src_tico19 3.65 | src_webdomain 3.85 | src_wikipedia 4.29
+ARM-RESULT arm agent_noverify@noisy | n 316 | judge 3.885 | lo 3.736 | hi 4.031 | health 3.916 | education 3.836 | abstain_pct 6.0 | confident_wrong_pct 10.8 | fallback_pct 0.0 | answered_judge 4.049 | median_s 16.84 | words 66.4 | english_ratio 0.003 | gold_in_ev_pct 76.6 | src_mdh 4.12 | src_oeb 3.97 | src_textbooks 3.82 | src_tico19 3.95 | src_webdomain 3.78 | src_wikipedia 3.9
+ARM-RESULT arm rag_naive@nogold | n 316 | judge 3.472 | lo 3.323 | hi 3.627 | health 3.418 | education 3.783 | abstain_pct 13.6 | confident_wrong_pct 10.1 | fallback_pct 0.0 | answered_judge 3.781 | median_s 7.24 | words 61.5 | english_ratio 0.002 | gold_in_ev_pct 0.0 | src_mdh 3.36 | src_oeb 3.98 | src_textbooks 3.82 | src_tico19 3.64 | src_webdomain 3.4 | src_wikipedia 2.94
+ARM-RESULT arm agent_noverify@nogold | n 316 | judge 3.252 | lo 3.097 | hi 3.415 | health 3.056 | education 3.619 | abstain_pct 19.0 | confident_wrong_pct 14.9 | fallback_pct 0.0 | answered_judge 3.671 | median_s 15.93 | words 56.6 | english_ratio 0.004 | gold_in_ev_pct 0.0 | src_mdh 2.95 | src_oeb 3.76 | src_textbooks 3.82 | src_tico19 3.27 | src_webdomain 3.07 | src_wikipedia 3.03
+ARM-RESULT arm agent_full@nogold | n 316 | judge 2.659 | lo 2.495 | hi 2.824 | health 2.738 | education 2.655 | abstain_pct 29.1 | confident_wrong_pct 21.5 | fallback_pct 35.1 | answered_judge 3.192 | median_s 20.05 | words 65.8 | english_ratio 0.003 | gold_in_ev_pct 0.0 | src_mdh 3.0 | src_oeb 2.88 | src_textbooks 2.33 | src_tico19 3.44 | src_webdomain 2.51 | src_wikipedia 2.43
+PAIR rag_naive - closed: +1.33 [+1.15, +1.51] n=316 p_holm=0.0000 | W/T/L 222/45/49
+PAIR agent_full - closed: +0.92 [+0.70, +1.13] n=316 p_holm=0.0000 | W/T/L 205/30/81
+PAIR closed - closed_tt_nllb: +0.23 [+0.06, +0.40] n=316 p_holm=0.0275 | W/T/L 152/50/114
+PAIR closed - closed_tt_self: -0.15 [-0.30, +0.00] n=316 p_holm=0.1485 | W/T/L 108/62/146
+PAIR rag_naive - rag_tt_nllb: +1.10 [+0.91, +1.30] n=316 p_holm=0.0000 | W/T/L 218/41/57
+PAIR rag_naive - rag_tt_self: +0.51 [+0.35, +0.67] n=316 p_holm=0.0000 | W/T/L 171/72/73
+PAIR rag_tt_self - rag_tt_nllb: +0.59 [+0.41, +0.78] n=316 p_holm=0.0000 | W/T/L 178/49/89
+PAIR agent_noverify - rag_naive: -0.04 [-0.19, +0.11] n=316 p_holm=0.6005 | W/T/L 95/125/96
+PAIR agent_full - agent_noverify: -0.37 [-0.53, -0.22] n=316 p_holm=0.0000 | W/T/L 71/106/139
+PAIR agent_full - rag_naive: -0.41 [-0.58, -0.25] n=316 p_holm=0.0000 | W/T/L 81/100/135
+PAIR closed@noisy - closed: -0.25 [-0.41, -0.11] n=315 p_holm=0.0070 | W/T/L 109/62/144
+PAIR rag_naive@noisy - rag_naive: -0.17 [-0.31, -0.04] n=316 p_holm=0.0400 | W/T/L 76/130/110
+PAIR agent_noverify@noisy - agent_noverify: -0.25 [-0.41, -0.10] n=316 p_holm=0.0040 | W/T/L 88/104/124
+PAIR agent_noverify@noisy - rag_naive@noisy: -0.12 [-0.27, +0.02] n=316 p_holm=0.2010 | W/T/L 102/103/111
+PAIR rag_naive@nogold - closed: +0.62 [+0.44, +0.81] n=316 p_holm=0.0000 | W/T/L 178/44/94
+PAIR agent_noverify@nogold - rag_naive@nogold: -0.22 [-0.36, -0.07] n=316 p_holm=0.0270 | W/T/L 96/96/124
+PAIR agent_full@nogold - agent_noverify@nogold: -0.59 [-0.77, -0.42] n=316 p_holm=0.0000 | W/T/L 86/73/157
+PAIR rag_naive@nogold - rag_naive: -0.71 [-0.88, -0.53] n=316 p_holm=0.0000 | W/T/L 71/76/169
+DONE: LLM calls 12761 | blind sheet v2 150 rows
+DIAG rag_naive abstains 18/316
+DIAG  dev0001 reason=no_supported_answer draft="Passages [1] akka jedhuutti, daa'imni kee yeroo hirribaa dugda isaa irra ta'uu qaba. Yeroo tapha garaa garaa isaatiin ta'uu qabuu, garuu yeroo hirribaa miti."
+DIAG  dev0023 reason=no_supported_answer draft="Passages'n kun yoo dhukkuba sombaa qabaatte hojii ykn mana barumsaa deemuu dandeessu moo hin dandeenye irratti odeeffannoo sirrii hin kennu."
+DIAG  dev0046 reason=no_supported_answer draft="Passages keessatti yeroo baayyee mallattooleen flu yeroo hammamii akka turan kallattiidhaan hin ibsine. Haa ta'u malee, passages [1] fi [4] waa'ee yeroo saaxilamummaatii hanga mallattoon mullatutti (incubation period) ni"
+DIAG  dev0055 reason=no_supported_answer draft='Passages keessatti yeroo qorannoon vaayirasii koroonaa fudhatu irratti ibsi ifaan kenname hin jiru.'
+DIAG  dev0092 reason=no_supported_answer draft="Passages keessatti, daa'imman Vaayireesii HIV waliin dhalatan hundaaf qorannoo fi yaala argachuu hin danda'an jechuun ibsameera. Addatti, akka [1] irratti ibsametti: /  / - Daa'imman dhalatan kun lamaan keessa tokko qora"
+DIAG  dev0100 reason=no_supported_answer draft="Passages: / [1] (webdomain; Koronaavaayiras: 'Itoophiyaan talaalliin yeroo argamuutti akkamiin akka daftee a) / Namoonni dhibee kanarraa fayyan irra deebiin qabamumoo humna ittisaa horatu kan jedhu qoratamaa jira. Akka q"
+DIAG  dev0112 reason=no_supported_answer draft='Passages: / [1] (webdomain; Kaansarii Ulaa Gadameessaa (Cervical Cancer)) / Dhukkubni kun mallattoo garaa garaa akkuma jabaachaa deemeen ni argisiisa. Namni mallattoowwan kana qabu dhukkuba kana qaba jechuu miti, dhukkub'
+DIAG  dev0122 reason=no_supported_answer draft="Passages keessatti aadaan awwaalchaa Oromoo bal'inaan ibsame hin jiru. Haa ta'u malee, Passage [1] (wikipedia; Usmaayyoo Musaa) akka jedhuutti, Artisti Usmaayyoo Muusaa du'aan booda magaalaa Ciroo bakka uummanni Oromoo h"
+DIAG noisy asked: 'qorata mantoux duran fudhadhee positive yo tae, amas qorata bira fudhatuu qabaa?'
+DIAG noisy asked: 'daaimni koo yero hirriba gara isaa iratti cisu qabaa?'
+DIAG noisy asked: 'mucan ko irsasi ira miidhamuu dandaa?'
+DISK 140K	$GB_ROOT/runs/T026_agent
+DISK 156K	$GB_ROOT/runs/T027_agent
+DISK 484K	$GB_ROOT/runs/T028_agent
+DISK 53M	$GB_ROOT/runs/T030_ablation
+DISK 134M	$GB_ROOT/models/tokenizers
+DISK 426M	$GB_ROOT/runs/T020_m1
+DISK 661M	$GB_ROOT/runs/T016_control
+DISK 725M	$GB_ROOT/runs/T016_ext
+DISK 1.1G	$GB_ROOT/runs/T010c_m1
+DISK 17G	$GB_ROOT/models/facebook
+DISK 19G	$GB_ROOT/models/McGill-NLP
+DISK 72G	$GB_ROOT/models/local
+vLLM stopped
+STATUS: PASS

@@ -1,0 +1,4 @@
+a	b	n	diff	lo	hi	p	wins	ties	losses	hyp	p_holm
+rag_naive	closed	79	0.278	-0.044	0.608	0.0755	39	20	20	H1	0.151
+rag_naive	rag_tt_nllb	79	0.835	0.462	1.184	0.0005	51	16	12	H2	0.0015
+agent_noverify	rag_naive	79	-0.089	-0.405	0.253	0.6235	23	26	30	H3	0.6235

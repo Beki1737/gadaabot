@@ -1,0 +1,482 @@
+{
+ "1": {
+  "id": "dev0008",
+  "arm": "rag_tt_nllb"
+ },
+ "2": {
+  "id": "dev0008",
+  "arm": "closed"
+ },
+ "3": {
+  "id": "dev0008",
+  "arm": "rag_naive"
+ },
+ "4": {
+  "id": "dev0008",
+  "arm": "closed_tt_self"
+ },
+ "5": {
+  "id": "dev0280",
+  "arm": "closed_tt_self"
+ },
+ "6": {
+  "id": "dev0280",
+  "arm": "closed"
+ },
+ "7": {
+  "id": "dev0280",
+  "arm": "rag_naive"
+ },
+ "8": {
+  "id": "dev0280",
+  "arm": "rag_tt_nllb"
+ },
+ "9": {
+  "id": "dev0066",
+  "arm": "rag_naive"
+ },
+ "10": {
+  "id": "dev0066",
+  "arm": "closed_tt_self"
+ },
+ "11": {
+  "id": "dev0066",
+  "arm": "rag_tt_nllb"
+ },
+ "12": {
+  "id": "dev0066",
+  "arm": "closed"
+ },
+ "13": {
+  "id": "dev0233",
+  "arm": "rag_tt_nllb"
+ },
+ "14": {
+  "id": "dev0233",
+  "arm": "rag_naive"
+ },
+ "15": {
+  "id": "dev0233",
+  "arm": "closed"
+ },
+ "16": {
+  "id": "dev0233",
+  "arm": "closed_tt_self"
+ },
+ "17": {
+  "id": "dev0085",
+  "arm": "closed_tt_self"
+ },
+ "18": {
+  "id": "dev0085",
+  "arm": "rag_naive"
+ },
+ "19": {
+  "id": "dev0085",
+  "arm": "closed"
+ },
+ "20": {
+  "id": "dev0085",
+  "arm": "rag_tt_nllb"
+ },
+ "21": {
+  "id": "dev0026",
+  "arm": "closed_tt_self"
+ },
+ "22": {
+  "id": "dev0026",
+  "arm": "closed"
+ },
+ "23": {
+  "id": "dev0026",
+  "arm": "rag_naive"
+ },
+ "24": {
+  "id": "dev0026",
+  "arm": "rag_tt_nllb"
+ },
+ "25": {
+  "id": "dev0083",
+  "arm": "closed"
+ },
+ "26": {
+  "id": "dev0083",
+  "arm": "rag_naive"
+ },
+ "27": {
+  "id": "dev0083",
+  "arm": "rag_tt_nllb"
+ },
+ "28": {
+  "id": "dev0083",
+  "arm": "closed_tt_self"
+ },
+ "29": {
+  "id": "dev0318",
+  "arm": "rag_naive"
+ },
+ "30": {
+  "id": "dev0318",
+  "arm": "closed"
+ },
+ "31": {
+  "id": "dev0318",
+  "arm": "rag_tt_nllb"
+ },
+ "32": {
+  "id": "dev0318",
+  "arm": "closed_tt_self"
+ },
+ "33": {
+  "id": "dev0133",
+  "arm": "rag_naive"
+ },
+ "34": {
+  "id": "dev0133",
+  "arm": "closed_tt_self"
+ },
+ "35": {
+  "id": "dev0133",
+  "arm": "closed"
+ },
+ "36": {
+  "id": "dev0133",
+  "arm": "rag_tt_nllb"
+ },
+ "37": {
+  "id": "dev0088",
+  "arm": "closed"
+ },
+ "38": {
+  "id": "dev0088",
+  "arm": "rag_tt_nllb"
+ },
+ "39": {
+  "id": "dev0088",
+  "arm": "closed_tt_self"
+ },
+ "40": {
+  "id": "dev0088",
+  "arm": "rag_naive"
+ },
+ "41": {
+  "id": "dev0019",
+  "arm": "closed"
+ },
+ "42": {
+  "id": "dev0019",
+  "arm": "rag_naive"
+ },
+ "43": {
+  "id": "dev0019",
+  "arm": "closed_tt_self"
+ },
+ "44": {
+  "id": "dev0019",
+  "arm": "rag_tt_nllb"
+ },
+ "45": {
+  "id": "dev0036",
+  "arm": "rag_tt_nllb"
+ },
+ "46": {
+  "id": "dev0036",
+  "arm": "closed"
+ },
+ "47": {
+  "id": "dev0036",
+  "arm": "rag_naive"
+ },
+ "48": {
+  "id": "dev0036",
+  "arm": "closed_tt_self"
+ },
+ "49": {
+  "id": "dev0081",
+  "arm": "rag_tt_nllb"
+ },
+ "50": {
+  "id": "dev0081",
+  "arm": "closed_tt_self"
+ },
+ "51": {
+  "id": "dev0081",
+  "arm": "closed"
+ },
+ "52": {
+  "id": "dev0081",
+  "arm": "rag_naive"
+ },
+ "53": {
+  "id": "dev0268",
+  "arm": "closed_tt_self"
+ },
+ "54": {
+  "id": "dev0268",
+  "arm": "rag_naive"
+ },
+ "55": {
+  "id": "dev0268",
+  "arm": "rag_tt_nllb"
+ },
+ "56": {
+  "id": "dev0268",
+  "arm": "closed"
+ },
+ "57": {
+  "id": "dev0312",
+  "arm": "rag_tt_nllb"
+ },
+ "58": {
+  "id": "dev0312",
+  "arm": "closed_tt_self"
+ },
+ "59": {
+  "id": "dev0312",
+  "arm": "rag_naive"
+ },
+ "60": {
+  "id": "dev0312",
+  "arm": "closed"
+ },
+ "61": {
+  "id": "dev0245",
+  "arm": "rag_tt_nllb"
+ },
+ "62": {
+  "id": "dev0245",
+  "arm": "closed_tt_self"
+ },
+ "63": {
+  "id": "dev0245",
+  "arm": "rag_naive"
+ },
+ "64": {
+  "id": "dev0245",
+  "arm": "closed"
+ },
+ "65": {
+  "id": "dev0119",
+  "arm": "rag_tt_nllb"
+ },
+ "66": {
+  "id": "dev0119",
+  "arm": "closed"
+ },
+ "67": {
+  "id": "dev0119",
+  "arm": "closed_tt_self"
+ },
+ "68": {
+  "id": "dev0119",
+  "arm": "rag_naive"
+ },
+ "69": {
+  "id": "dev0350",
+  "arm": "rag_naive"
+ },
+ "70": {
+  "id": "dev0350",
+  "arm": "rag_tt_nllb"
+ },
+ "71": {
+  "id": "dev0350",
+  "arm": "closed_tt_self"
+ },
+ "72": {
+  "id": "dev0350",
+  "arm": "closed"
+ },
+ "73": {
+  "id": "dev0055",
+  "arm": "closed"
+ },
+ "74": {
+  "id": "dev0055",
+  "arm": "rag_tt_nllb"
+ },
+ "75": {
+  "id": "dev0055",
+  "arm": "closed_tt_self"
+ },
+ "76": {
+  "id": "dev0055",
+  "arm": "rag_naive"
+ },
+ "77": {
+  "id": "dev0071",
+  "arm": "closed_tt_self"
+ },
+ "78": {
+  "id": "dev0071",
+  "arm": "rag_tt_nllb"
+ },
+ "79": {
+  "id": "dev0071",
+  "arm": "rag_naive"
+ },
+ "80": {
+  "id": "dev0071",
+  "arm": "closed"
+ },
+ "81": {
+  "id": "dev0012",
+  "arm": "closed_tt_self"
+ },
+ "82": {
+  "id": "dev0012",
+  "arm": "rag_tt_nllb"
+ },
+ "83": {
+  "id": "dev0012",
+  "arm": "closed"
+ },
+ "84": {
+  "id": "dev0012",
+  "arm": "rag_naive"
+ },
+ "85": {
+  "id": "dev0238",
+  "arm": "rag_naive"
+ },
+ "86": {
+  "id": "dev0238",
+  "arm": "rag_tt_nllb"
+ },
+ "87": {
+  "id": "dev0238",
+  "arm": "closed"
+ },
+ "88": {
+  "id": "dev0238",
+  "arm": "closed_tt_self"
+ },
+ "89": {
+  "id": "dev0202",
+  "arm": "rag_tt_nllb"
+ },
+ "90": {
+  "id": "dev0202",
+  "arm": "closed"
+ },
+ "91": {
+  "id": "dev0202",
+  "arm": "rag_naive"
+ },
+ "92": {
+  "id": "dev0202",
+  "arm": "closed_tt_self"
+ },
+ "93": {
+  "id": "dev0116",
+  "arm": "rag_naive"
+ },
+ "94": {
+  "id": "dev0116",
+  "arm": "closed_tt_self"
+ },
+ "95": {
+  "id": "dev0116",
+  "arm": "closed"
+ },
+ "96": {
+  "id": "dev0116",
+  "arm": "rag_tt_nllb"
+ },
+ "97": {
+  "id": "dev0120",
+  "arm": "closed"
+ },
+ "98": {
+  "id": "dev0120",
+  "arm": "rag_tt_nllb"
+ },
+ "99": {
+  "id": "dev0120",
+  "arm": "closed_tt_self"
+ },
+ "100": {
+  "id": "dev0120",
+  "arm": "rag_naive"
+ },
+ "101": {
+  "id": "dev0196",
+  "arm": "rag_naive"
+ },
+ "102": {
+  "id": "dev0196",
+  "arm": "closed_tt_self"
+ },
+ "103": {
+  "id": "dev0196",
+  "arm": "rag_tt_nllb"
+ },
+ "104": {
+  "id": "dev0196",
+  "arm": "closed"
+ },
+ "105": {
+  "id": "dev0232",
+  "arm": "closed"
+ },
+ "106": {
+  "id": "dev0232",
+  "arm": "rag_tt_nllb"
+ },
+ "107": {
+  "id": "dev0232",
+  "arm": "rag_naive"
+ },
+ "108": {
+  "id": "dev0232",
+  "arm": "closed_tt_self"
+ },
+ "109": {
+  "id": "dev0216",
+  "arm": "rag_tt_nllb"
+ },
+ "110": {
+  "id": "dev0216",
+  "arm": "rag_naive"
+ },
+ "111": {
+  "id": "dev0216",
+  "arm": "closed_tt_self"
+ },
+ "112": {
+  "id": "dev0216",
+  "arm": "closed"
+ },
+ "113": {
+  "id": "dev0352",
+  "arm": "rag_naive"
+ },
+ "114": {
+  "id": "dev0352",
+  "arm": "closed"
+ },
+ "115": {
+  "id": "dev0352",
+  "arm": "closed_tt_self"
+ },
+ "116": {
+  "id": "dev0352",
+  "arm": "rag_tt_nllb"
+ },
+ "117": {
+  "id": "dev0142",
+  "arm": "rag_naive"
+ },
+ "118": {
+  "id": "dev0142",
+  "arm": "closed_tt_self"
+ },
+ "119": {
+  "id": "dev0142",
+  "arm": "rag_tt_nllb"
+ },
+ "120": {
+  "id": "dev0142",
+  "arm": "closed"
+ }
+}

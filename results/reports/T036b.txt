@@ -1,0 +1,27 @@
+qdrant already running (pid 3849689) on 46333
+T036-CAUSE     raise LocalEntryNotFoundError(
+T036-CAUSE huggingface_hub.errors.LocalEntryNotFoundError: Cannot find the requested files in the disk cache and outgoing traffic has been disabled. To enable hf.co look-ups and downloads online, set 'local_files_only' to False.
+T036-CAUSE     raise OSError(
+T036-CAUSE OSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+ENC-PATH Alibaba-NLP/gte-multilingual-base -> $SHARED_MODELS/Alibaba-NLP/gte-multilingual-base
+ENC-PATH Sentence-Transformers/LaBSE -> $SHARED_MODELS/Sentence-Transformers/LaBSE
+E7 FAIL gte_multilingual load: OSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+E7 component labse dense | R@1 2.2 | R@5 3.6 | R@5_lo 1.3 | R@5_hi 6.3 | MRR@10 3.1
+E7 component labse dense+BM25trunc4 RRF | R@1 6.3 | R@5 63.7 | R@5_lo 57.8 | R@5_hi 70.0 | MRR@10 30.3
+E7 component labse RRF + rerank50 | R@1 66.4 | R@5 83.9 | R@5_lo 78.9 | R@5_hi 88.8 | MRR@10 74.3
+E7-PAIR BM25 R@5 norm - trunc4: -2.7 pts [-7.6, +2.2] p=0.3545
+E7-PAIR BM25 R@5 trunc3 - trunc4: -12.1 pts [-16.6, -7.2] p=0.0
+E7-PAIR BM25 R@5 trunc5 - trunc4: -2.7 pts [-7.2, +1.8] p=0.2765
+E7-PAIR BM25 R@5 trunc6 - trunc4: +1.8 pts [-2.2, +5.8] p=0.425
+E7-PAIR BM25 R@5 stem - trunc4: -0.4 pts [-4.9, +4.5] p=0.9345
+E7-PAIR dense R@5 me5_large_instruct - afrie5: +0.4 pts [-2.2, +3.6] p=0.8925
+E7-PAIR dense R@5 bge_m3 - afrie5: -4.0 pts [-8.5, +0.4] p=0.0885
+E7-PAIR dense R@5 labse - afrie5: -71.7 pts [-78.0, -65.5] p=0.0
+E7-PAIR hybrid R@5 me5_large_instruct - afrie5: -2.7 pts [-5.4, -0.4] p=0.032
+E7-PAIR hybrid R@5 bge_m3 - afrie5: -1.8 pts [-4.9, +0.9] p=0.327
+E7-PAIR hybrid R@5 labse - afrie5: -21.1 pts [-26.9, -15.2] p=0.0
+E7-PAIR full R@5 me5_large_instruct - afrie5: +0.4 pts [+0.0, +1.8] p=0.7305
+E7-PAIR full R@5 bge_m3 - afrie5: +0.0 pts [-1.3, +1.3] p=1.0
+E7-PAIR full R@5 labse - afrie5: -3.1 pts [-6.3, -0.4] p=0.0365
+E7 pre-registered: none (descriptive). Claim to check: prefix truncation is the best sparse analyzer and AfriE5 is at least as good as general multilingual encoders in the full pipeline.
+STATUS: PASS

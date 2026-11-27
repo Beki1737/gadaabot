@@ -1,0 +1,3 @@
+system	om_to_en_chrF	om_to_en_lo	om_to_en_hi	en_to_om_chrF	en_to_om_lo	en_to_om_hi	n
+nllb	53.5	52.0	55.2	47.4	45.9	48.6	300
+self	50.9	49.4	52.7	45.1	43.8	46.4	300

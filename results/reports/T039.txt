@@ -1,0 +1,22 @@
+RQH key md5 7abf7d27c0e632019d4a1e17e47b0f3e (reconstruction from seed 41: 7abf7d27c0e632019d4a1e17e47b0f3e)
+RQH-IAA correct: QWK 0.851 [0.811, 0.886] | exact 64.2% | within 1 95.9% | n 316
+RQH-IAA fluent: QWK 0.660 [0.597, 0.718] | exact 56.0% | within 1 98.1% | n 316
+RQH-SYS system rag_naive | n 79 | human 3.475 | lo 3.177 | hi 3.772 | A1 3.532 | A2 3.418 | low_pct 24.1 | fluent 3.835 | health 3.013 | education 3.903 | culture 4.125
+RQH-SYS system closed | n 79 | human 3.196 | lo 2.937 | hi 3.449 | A1 3.342 | A2 3.051 | low_pct 21.5 | fluent 3.715 | health 2.875 | education 3.581 | culture 3.312
+RQH-SYS system rag_tt_nllb | n 79 | human 2.639 | lo 2.399 | hi 2.899 | A1 2.722 | A2 2.557 | low_pct 41.8 | fluent 2.899 | health 2.638 | education 2.758 | culture 2.188
+RQH-SYS system agent_noverify | n 79 | human 3.386 | lo 3.114 | hi 3.646 | A1 3.43 | A2 3.342 | low_pct 20.3 | fluent 3.722 | health 3.263 | education 3.371 | culture 4.062
+RQH-H1 rag_naive - closed: +0.28 [-0.04, +0.61] p_holm=0.151 | W/T/L 39/20/20
+RQH-H2 rag_naive - rag_tt_nllb: +0.83 [+0.46, +1.18] p_holm=0.0015 | W/T/L 51/16/12
+RQH-H3 agent_noverify - rag_naive: -0.09 [-0.41, +0.25] p_holm=0.6235 | W/T/L 23/26/30
+RQH-ANN A1 H1 +0.19 | H2 +0.81 | H3 -0.10
+RQH-ANN A2 H1 +0.37 | H2 +0.86 | H3 -0.08
+RQH-JUDGE afq n 316 | qwk 0.587 | qwk_lo 0.506 | qwk_hi 0.667 | spearman 0.646 | bias 0.267 | kendall_systems 1.0 | pair_sign_agree 6/6 | rag_naive-closed human +0.28 judge +0.60 [+0.32, +0.88] | rag_naive-rag_tt_nllb human +0.84 judge +1.13 [+0.82, +1.44] | agent_noverify-rag_naive human -0.09 judge -0.24 [-0.48, +0.02] | closed-rag_tt_nllb human +0.56 judge +0.53 [+0.18, +0.89] | agent_noverify-closed human +0.19 judge +0.36 [+0.05, +0.69] | agent_noverify-rag_tt_nllb human +0.75 judge +0.89 [+0.57, +1.23]
+RQH-JUDGE g27 n 316 | qwk 0.516 | qwk_lo 0.43 | qwk_hi 0.596 | spearman 0.606 | bias 0.557 | kendall_systems 1.0 | pair_sign_agree 6/6 | rag_naive-closed human +0.28 judge +0.34 [+0.07, +0.59] | rag_naive-rag_tt_nllb human +0.84 judge +0.74 [+0.49, +1.02] | agent_noverify-rag_naive human -0.09 judge -0.23 [-0.50, +0.05] | closed-rag_tt_nllb human +0.56 judge +0.41 [+0.12, +0.70] | agent_noverify-closed human +0.19 judge +0.11 [-0.16, +0.37] | agent_noverify-rag_tt_nllb human +0.75 judge +0.51 [+0.23, +0.80]
+RQH-GATE tau 2.7: below tau real 65.8% (median top score 1.10, n 79) | generated test 22.3% (median 4.05, n 184)
+RQH-GATE below n=52 | rag human 3.33 | closed human 3.19 | rag - closed +0.13 [-0.23, +0.51] | rag low(<=2) 28.8%
+RQH-GATE above n=27 | rag human 3.76 | closed human 3.20 | rag - closed +0.56 [-0.04, +1.13] | rag low(<=2) 14.8%
+RQH-TERCILE top-score low n=26 | rag 3.42 | closed 3.58 | nllb 2.63 | agent 3.12
+RQH-TERCILE top-score mid n=26 | rag 3.23 | closed 2.81 | nllb 2.42 | agent 3.29
+RQH-TERCILE top-score high n=27 | rag 3.76 | closed 3.20 | nllb 2.85 | agent 3.74
+DONE rq_human
+STATUS: PASS

@@ -1,0 +1,28 @@
+project storage used: 96 GiB (cap 150)
+
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]
+Fetching 10 files:  10%|█         | 1/10 [00:00<00:06,  1.37it/s]
+Fetching 10 files:  40%|████      | 4/10 [00:00<00:01,  5.24it/s]
+Fetching 10 files:  50%|█████     | 5/10 [00:01<00:01,  3.39it/s]
+Fetching 10 files:  60%|██████    | 6/10 [00:03<00:02,  1.51it/s]
+Fetching 10 files:  70%|███████   | 7/10 [00:04<00:02,  1.25it/s]
+Fetching 10 files:  80%|████████  | 8/10 [07:41<04:28, 134.24s/it]
+Fetching 10 files:  90%|█████████ | 9/10 [15:18<03:49, 229.26s/it]
+Fetching 10 files: 100%|██████████| 10/10 [16:51<00:00, 188.84s/it]
+Fetching 10 files: 100%|██████████| 10/10 [16:51<00:00, 101.12s/it]
+NLLB downloaded: $GB_ROOT/models/facebook/nllb-200-3.3B weights ['*.bin']
+qdrant already running (pid 3849689) on 46333
+SERVE + AGENT on GPU 8 (03:03)
+vLLM ready on 127.0.0.1:48000
+ablation exited non-zero (see $GB_ROOT/logs/T030_ablation_20261102_024705.log)
+HELDOUT: 316 questions (excluded 54 iteration ids) | arms ['closed', 'closed_tt_nllb', 'closed_tt_self', 'rag_naive', 'rag_tt_nllb', 'agent_noverify', 'agent_full']
+RETRIEVAL: 50s | gold parent in top-4 260/316
+ARM closed done
+ARM rag_naive done | LLM calls/question 1.00
+ARM agent_noverify done | LLM calls/question 3.22
+ARM agent_full done | LLM calls/question 5.09
+NLLB questions -> en: 3s | e.g. "Qorata Mantoux duraan fudhadhee positive yoo ta'e, ammas qor" -> 'If I have tested positive for Mantoux before, should I take '
+ARM closed_tt_nllb done | gen 261s | e.g. "Duraan qorannoo Mantoux (tuberkuliin) irratti yoo bu'aa gaarii argatte, yeroo baay'ee sirni ittisa qaamaa kee antiijinii"
+ARM closed_tt_self done
+vLLM stopped
+STATUS: PARTIAL

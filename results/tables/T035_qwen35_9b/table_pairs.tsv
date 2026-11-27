@@ -1,0 +1,7 @@
+a	b	n	diff	lo	hi	p	wins	ties	losses	p_holm
+rag_naive	closed	316	2.449	2.269	2.63	0.0	276	30	10	0.0
+closed	closed_tt_self	316	0.396	0.301	0.497	0.0	108	200	8	0.0
+rag_naive	rag_tt_nllb	316	1.266	1.047	1.5	0.0	175	97	44	0.0
+rag_naive	rag_tt_self	316	2.892	2.737	3.041	0.0	304	10	2	0.0
+rag_tt_self	rag_tt_nllb	316	-1.627	-1.804	-1.449	0.0	3	96	217	0.0
+agent_noverify	rag_naive	316	-0.095	-0.278	0.079	0.284	75	152	89	0.284

@@ -1,0 +1,139 @@
+review installed: 223 kept items
+V4 DEVSET education    oeb        kept  30/37  (81.1%)
+V4 DEVSET education    textbooks  kept  30/44  (68.2%)
+V4 DEVSET education    webdomain  kept  23/49  (46.9%)
+V4 DEVSET encyclopedia wikipedia  kept  30/56  (53.6%)
+V4 DEVSET health       mdh        kept  35/43  (81.4%)
+V4 DEVSET health       oeb        kept  13/19  (68.4%)
+V4 DEVSET health       tico19     kept  20/31  (64.5%)
+V4 DEVSET health       webdomain  kept  42/85  (49.4%)
+V4 DEVSET all          all        kept 223/364 (61.3%)
+V4 FINAL SET: 184 reviewed held-out questions (held-out 316, kept 223)
+V4 FINAL-ARM arm closed | n 184 | judge 2.989 | lo 2.799 | hi 3.187 | dom_education 3.25 | dom_encyclopedia 2.27 | dom_health 2.99 | abstain_pct 0.0 | confident_wrong_pct 35.3 | answered_judge 2.989 | median_s 7.66
+V4 FINAL-ARM arm closed_tt_nllb | n 184 | judge 2.797 | lo 2.585 | hi 3.007 | dom_education 2.64 | dom_encyclopedia 2.45 | dom_health 3.01 | abstain_pct 0.0 | confident_wrong_pct 41.3 | answered_judge 2.797 | median_s 1.07
+V4 FINAL-ARM arm closed_tt_self | n 184 | judge 3.285 | lo 3.08 | hi 3.486 | dom_education 3.36 | dom_encyclopedia 2.83 | dom_health 3.36 | abstain_pct 0.0 | confident_wrong_pct 28.3 | answered_judge 3.285 | median_s 18.6
+V4 FINAL-ARM arm rag_naive | n 184 | judge 4.384 | lo 4.248 | hi 4.514 | dom_education 4.54 | dom_encyclopedia 4.63 | dom_health 4.2 | abstain_pct 2.2 | confident_wrong_pct 2.7 | answered_judge 4.459 | median_s 6.89
+V4 FINAL-ARM arm rag_tt_nllb | n 184 | judge 3.19 | lo 2.982 | hi 3.404 | dom_education 3.02 | dom_encyclopedia 3.65 | dom_health 3.19 | abstain_pct 0.0 | confident_wrong_pct 32.1 | answered_judge 3.19 | median_s 2.41
+V4 FINAL-ARM arm rag_tt_self | n 184 | judge 3.801 | lo 3.596 | hi 3.976 | dom_education 3.9 | dom_encyclopedia 3.85 | dom_health 3.71 | abstain_pct 0.0 | confident_wrong_pct 17.4 | answered_judge 3.801 | median_s 61.7
+V4 FINAL-ARM arm agent_noverify | n 184 | judge 4.342 | lo 4.185 | hi 4.487 | dom_education 4.43 | dom_encyclopedia 4.43 | dom_health 4.26 | abstain_pct 4.3 | confident_wrong_pct 3.3 | answered_judge 4.492 | median_s 14.99
+V4 FINAL-ARM arm agent_full | n 184 | judge 3.928 | lo 3.739 | hi 4.1 | dom_education 3.74 | dom_encyclopedia 4.32 | dom_health 3.96 | abstain_pct 7.1 | confident_wrong_pct 7.1 | answered_judge 4.144 | median_s 19.09
+V4 FINAL-ARM arm closed@noisy | n 183 | judge 2.707 | lo 2.515 | hi 2.893 | dom_education 2.57 | dom_encyclopedia 2.4 | dom_health 2.89 | abstain_pct 0.0 | confident_wrong_pct 45.4 | answered_judge 2.707 | median_s 8.51
+V4 FINAL-ARM arm rag_naive@noisy | n 184 | judge 4.172 | lo 4.004 | hi 4.337 | dom_education 4.22 | dom_encyclopedia 4.53 | dom_health 4.04 | abstain_pct 2.7 | confident_wrong_pct 6.5 | answered_judge 4.253 | median_s 7.4
+V4 FINAL-ARM arm agent_noverify@noisy | n 184 | judge 4.121 | lo 3.937 | hi 4.297 | dom_education 4.09 | dom_encyclopedia 4.31 | dom_health 4.1 | abstain_pct 3.8 | confident_wrong_pct 8.2 | answered_judge 4.245 | median_s 17.18
+V4 FINAL-ARM arm rag_naive@nogold | n 184 | judge 3.562 | lo 3.373 | hi 3.75 | dom_education 4.02 | dom_encyclopedia 2.79 | dom_health 3.43 | abstain_pct 10.9 | confident_wrong_pct 7.6 | answered_judge 3.833 | median_s 7.17
+V4 FINAL-ARM arm agent_noverify@nogold | n 184 | judge 3.373 | lo 3.165 | hi 3.587 | dom_education 4.02 | dom_encyclopedia 2.93 | dom_health 3.01 | abstain_pct 17.4 | confident_wrong_pct 13.0 | answered_judge 3.794 | median_s 15.75
+V4 FINAL-ARM arm agent_full@nogold | n 184 | judge 2.752 | lo 2.54 | hi 2.966 | dom_education 2.79 | dom_encyclopedia 2.25 | dom_health 2.86 | abstain_pct 27.2 | confident_wrong_pct 20.1 | answered_judge 3.289 | median_s 18.66
+V4 FINAL-PAIR rag_naive - closed: +1.40 [+1.16, +1.62] n=184 p_holm=0.0000 W/T/L 135/24/25
+V4 FINAL-PAIR agent_full - closed: +0.94 [+0.67, +1.20] n=184 p_holm=0.0000 W/T/L 124/19/41
+V4 FINAL-PAIR closed - closed_tt_nllb: +0.19 [-0.04, +0.43] n=184 p_holm=0.2700 W/T/L 86/27/71
+V4 FINAL-PAIR closed - closed_tt_self: -0.30 [-0.48, -0.11] n=184 p_holm=0.0200 W/T/L 58/35/91
+V4 FINAL-PAIR rag_naive - rag_tt_nllb: +1.19 [+0.96, +1.43] n=184 p_holm=0.0000 W/T/L 128/27/29
+V4 FINAL-PAIR rag_naive - rag_tt_self: +0.58 [+0.39, +0.79] n=184 p_holm=0.0000 W/T/L 96/54/34
+V4 FINAL-PAIR rag_tt_self - rag_tt_nllb: +0.61 [+0.37, +0.85] n=184 p_holm=0.0000 W/T/L 100/36/48
+V4 FINAL-PAIR agent_noverify - rag_naive: -0.04 [-0.22, +0.13] n=184 p_holm=1.0000 W/T/L 52/84/48
+V4 FINAL-PAIR agent_full - agent_noverify: -0.41 [-0.59, -0.24] n=184 p_holm=0.0000 W/T/L 38/66/80
+V4 FINAL-PAIR agent_full - rag_naive: -0.46 [-0.65, -0.27] n=184 p_holm=0.0000 W/T/L 42/66/76
+V4 FINAL-PAIR closed@noisy - closed: -0.28 [-0.49, -0.07] n=183 p_holm=0.0525 W/T/L 65/32/86
+V4 FINAL-PAIR rag_naive@noisy - rag_naive: -0.21 [-0.39, -0.04] n=184 p_holm=0.0930 W/T/L 43/81/60
+V4 FINAL-PAIR agent_noverify@noisy - agent_noverify: -0.22 [-0.42, -0.02] n=184 p_holm=0.1325 W/T/L 49/65/70
+V4 FINAL-PAIR agent_noverify@noisy - rag_naive@noisy: -0.05 [-0.25, +0.14] n=184 p_holm=1.0000 W/T/L 60/66/58
+V4 FINAL-PAIR rag_naive@nogold - closed: +0.57 [+0.34, +0.80] n=184 p_holm=0.0000 W/T/L 100/27/57
+V4 FINAL-PAIR agent_noverify@nogold - rag_naive@nogold: -0.19 [-0.38, -0.00] n=184 p_holm=0.2000 W/T/L 57/57/70
+V4 FINAL-PAIR agent_full@nogold - agent_noverify@nogold: -0.62 [-0.86, -0.38] n=184 p_holm=0.0045 W/T/L 50/40/94
+V4 FINAL-PAIR rag_naive@nogold - rag_naive: -0.82 [-1.03, -0.60] n=184 p_holm=0.0000 W/T/L 33/44/107
+V4 HUMAN: 150 scored rows, 30 questions (17 kept in review)
+V4 HUMAN-ARM closed           n=30 human 2.40 [1.97, 2.83] | judge on same items 3.00
+V4 HUMAN-ARM closed_tt_self   n=30 human 2.67 [2.20, 3.13] | judge on same items 3.24
+V4 HUMAN-ARM rag_naive        n=30 human 3.83 [3.30, 4.33] | judge on same items 4.31
+V4 HUMAN-ARM rag_tt_nllb      n=30 human 2.53 [2.07, 3.03] | judge on same items 3.01
+V4 HUMAN-ARM agent_full       n=30 human 3.33 [2.70, 3.93] | judge on same items 3.50
+V4 HUMAN-PAIR[all] rag_naive - closed: +1.43 [+0.77, +2.03] n=30 p_holm=0.0000 W/T/L 21/7/2
+V4 HUMAN-PAIR[all] rag_naive - rag_tt_nllb: +1.30 [+0.57, +1.97] n=30 p_holm=0.0020 W/T/L 19/7/4
+V4 HUMAN-PAIR[all] closed - closed_tt_self: -0.27 [-0.67, +0.07] n=30 p_holm=0.3460 W/T/L 7/12/11
+V4 HUMAN-PAIR[all] agent_full - rag_naive: -0.50 [-1.00, -0.07] n=30 p_holm=0.1020 W/T/L 4/16/10
+V4 HUMAN-PAIR[all] rag_tt_nllb - closed: +0.13 [-0.53, +0.80] n=30 p_holm=0.7355 W/T/L 12/8/10
+V4 HUMAN-PAIR[kept] rag_naive - closed: +1.35 [+0.35, +2.23] n=17 p_holm=0.0580 W/T/L 13/2/2
+V4 HUMAN-PAIR[kept] rag_naive - rag_tt_nllb: +1.53 [+0.82, +2.23] n=17 p_holm=0.0000 W/T/L 12/4/1
+V4 HUMAN-PAIR[kept] closed - closed_tt_self: -0.47 [-1.06, +0.06] n=17 p_holm=0.3390 W/T/L 3/7/7
+V4 HUMAN-PAIR[kept] agent_full - rag_naive: -0.29 [-0.88, +0.23] n=17 p_holm=0.8080 W/T/L 3/9/5
+V4 HUMAN-PAIR[kept] rag_tt_nllb - closed: -0.18 [-1.12, +0.71] n=17 p_holm=0.8080 W/T/L 7/3/7
+V4 JUDGE-HUMAN group all | n 150 | qwk 0.624 | qwk_lo 0.511 | qwk_hi 0.735 | spearman 0.645 | exact 0.487 | within1 0.76 | bias_judge_minus_human 0.46
+V4 JUDGE-HUMAN group native | n 90 | qwk 0.671 | qwk_lo 0.518 | qwk_hi 0.798 | spearman 0.676 | exact 0.556 | within1 0.789 | bias_judge_minus_human 0.389
+V4 JUDGE-HUMAN group translated | n 60 | qwk 0.518 | qwk_lo 0.321 | qwk_hi 0.689 | spearman 0.578 | exact 0.383 | within1 0.717 | bias_judge_minus_human 0.567
+V4 JUDGE-HUMAN group kept_only | n 85 | qwk 0.537 | qwk_lo 0.336 | qwk_hi 0.703 | spearman 0.505 | exact 0.482 | within1 0.776 | bias_judge_minus_human 0.506
+V4 JUDGE-HUMAN group agent_full | n 30 | qwk 0.853 | qwk_lo 0.673 | qwk_hi 0.956 | spearman 0.83 | exact 0.7 | within1 0.867 | bias_judge_minus_human 0.2
+V4 JUDGE-HUMAN group closed | n 30 | qwk 0.411 | qwk_lo 0.069 | qwk_hi 0.725 | spearman 0.474 | exact 0.433 | within1 0.767 | bias_judge_minus_human 0.533
+V4 JUDGE-HUMAN group closed_tt_self | n 30 | qwk 0.588 | qwk_lo 0.36 | qwk_hi 0.758 | spearman 0.677 | exact 0.4 | within1 0.667 | bias_judge_minus_human 0.667
+V4 JUDGE-HUMAN group rag_naive | n 30 | qwk 0.507 | qwk_lo 0.051 | qwk_hi 0.787 | spearman 0.454 | exact 0.533 | within1 0.733 | bias_judge_minus_human 0.433
+V4 JUDGE-HUMAN group rag_tt_nllb | n 30 | qwk 0.439 | qwk_lo 0.095 | qwk_hi 0.721 | spearman 0.501 | exact 0.367 | within1 0.767 | bias_judge_minus_human 0.467
+V4 DONE
+qdrant already running (pid 3849689) on 46333
+GPU 8 (13:30)
+R1 DEV: 223 questions (REVIEWED) | device cuda
+R1 ARM                              R@1   R@3   R@5     R@5 95%CI  R@10   MRR docHit5   ms/q
+R1 ARM R0_bm25_norm                46.6  68.2  74.4  [69.1, 80.3]  79.8  58.6    80.7    4.2
+R1 ARM R1_bm25_trunc4              50.2  70.4  76.7  [71.3, 82.5]  83.9  61.9    83.4    3.3
+R1 ARM R2_dense_afrie5             48.0  69.1  73.1  [67.3, 78.9]  77.1  58.7    81.2    5.5
+R1 ARM R3_hybrid_rrf               57.0  78.9  83.4  [78.5, 87.9]  87.4  68.1    89.7    5.9
+R1 ARM R4_hybrid_dbsf              57.0  80.7  84.3  [79.4, 88.8]  87.9  68.9    90.1    6.9
+R1 ARM R5_rerank50(R4_hybrid_dbsf)  65.9  84.8  87.4  [83.0, 91.9]  90.1  75.7    91.5  131.6
+R1 BREAKDOWN (R5_rerank50(R4_hybrid_dbsf)) R@5 by group: domain=education 87 (n=83); domain=encyclopedia 100 (n=30); domain=health 85 (n=110); source=mdh 97 (n=35); source=oeb 91 (n=43); source=textbooks 80 (n=30); source=tico19 60 (n=20); source=webdomain 86 (n=65); source=wikipedia 100 (n=30)
+R1 OVERLAP R1_bm25_trunc4             R@5 by question-passage overlap tercile (low/mid/high): 55 / 86 / 88
+R1 OVERLAP R2_dense_afrie5            R@5 by question-passage overlap tercile (low/mid/high): 68 / 76 / 76
+R1 OVERLAP R5_rerank50(R4_hybrid_dbsf) R@5 by question-passage overlap tercile (low/mid/high): 77 / 92 / 93
+R1 BEST: R5_rerank50(R4_hybrid_dbsf) | REVIEWED
+vLLM ready on 127.0.0.1:48000
+HELDOUT: 316 questions (excluded 54 iteration ids) | arms ['closed', 'closed_tt_nllb', 'closed_tt_self', 'rag_naive', 'rag_tt_nllb', 'rag_tt_self', 'agent_noverify', 'agent_full', 'closed@noisy', 'rag_naive@noisy', 'agent_noverify@noisy', 'rag_naive@nogold', 'agent_noverify@nogold', 'agent_full@nogo
+RESUME closed: 316 cached answers
+RESUME closed_tt_nllb: 316 cached answers
+RESUME closed_tt_self: 316 cached answers
+RESUME rag_tt_nllb: 316 cached answers
+RESUME rag_tt_self: 316 cached answers
+RESUME closed@noisy: 316 cached answers
+ARM rag_naive done | LLM calls/question 1.01
+ARM agent_noverify done | LLM calls/question 3.27
+ARM agent_full done | LLM calls/question 5.22
+ARM rag_naive@noisy done | LLM calls/question 1.01
+ARM agent_noverify@noisy done | LLM calls/question 3.23
+ARM rag_naive@nogold done | LLM calls/question 1.05
+ARM agent_noverify@nogold done | LLM calls/question 3.41
+ARM agent_full@nogold done | LLM calls/question 5.43
+JUDGE: 4424 answers (4423 reused from cache) in 15s
+DONE: LLM calls 7473 | blind sheet v2 150 rows
+vLLM stopped
+FINAL SET: 184 reviewed held-out questions (held-out 316, kept 223)
+FINAL-ARM arm closed | n 184 | judge 2.995 | lo 2.803 | hi 3.194 | dom_education 3.25 | dom_encyclopedia 2.27 | dom_health 3.0 | abstain_pct 0.0 | confident_wrong_pct 35.3 | answered_judge 2.995 | median_s 7.66
+FINAL-ARM arm closed_tt_nllb | n 184 | judge 2.797 | lo 2.585 | hi 3.007 | dom_education 2.64 | dom_encyclopedia 2.45 | dom_health 3.01 | abstain_pct 0.0 | confident_wrong_pct 41.3 | answered_judge 2.797 | median_s 1.07
+FINAL-ARM arm closed_tt_self | n 184 | judge 3.285 | lo 3.08 | hi 3.486 | dom_education 3.36 | dom_encyclopedia 2.83 | dom_health 3.36 | abstain_pct 0.0 | confident_wrong_pct 28.3 | answered_judge 3.285 | median_s 18.6
+FINAL-ARM arm rag_naive | n 184 | judge 4.382 | lo 4.246 | hi 4.513 | dom_education 4.55 | dom_encyclopedia 4.59 | dom_health 4.2 | abstain_pct 0.5 | confident_wrong_pct 4.3 | answered_judge 4.401 | median_s 7.29
+FINAL-ARM arm rag_tt_nllb | n 184 | judge 3.19 | lo 2.982 | hi 3.404 | dom_education 3.02 | dom_encyclopedia 3.65 | dom_health 3.19 | abstain_pct 0.0 | confident_wrong_pct 32.1 | answered_judge 3.19 | median_s 2.41
+FINAL-ARM arm rag_tt_self | n 184 | judge 3.801 | lo 3.596 | hi 3.976 | dom_education 3.9 | dom_encyclopedia 3.85 | dom_health 3.71 | abstain_pct 0.0 | confident_wrong_pct 17.4 | answered_judge 3.801 | median_s 61.7
+FINAL-ARM arm agent_noverify | n 184 | judge 4.274 | lo 4.098 | hi 4.435 | dom_education 4.27 | dom_encyclopedia 4.43 | dom_health 4.23 | abstain_pct 3.8 | confident_wrong_pct 6.5 | answered_judge 4.377 | median_s 14.9
+FINAL-ARM arm agent_full | n 184 | judge 3.884 | lo 3.69 | hi 4.062 | dom_education 3.6 | dom_encyclopedia 4.32 | dom_health 3.97 | abstain_pct 8.7 | confident_wrong_pct 7.1 | answered_judge 4.123 | median_s 20.27
+FINAL-ARM arm closed@noisy | n 184 | judge 2.701 | lo 2.5 | hi 2.886 | dom_education 2.56 | dom_encyclopedia 2.4 | dom_health 2.89 | abstain_pct 0.0 | confident_wrong_pct 45.7 | answered_judge 2.701 | median_s 8.78
+FINAL-ARM arm rag_naive@noisy | n 184 | judge 4.168 | lo 4.0 | hi 4.333 | dom_education 4.21 | dom_encyclopedia 4.53 | dom_health 4.04 | abstain_pct 0.0 | confident_wrong_pct 8.7 | answered_judge 4.168 | median_s 8.27
+FINAL-ARM arm agent_noverify@noisy | n 184 | judge 4.062 | lo 3.871 | hi 4.232 | dom_education 4.02 | dom_encyclopedia 4.2 | dom_health 4.05 | abstain_pct 3.3 | confident_wrong_pct 10.9 | answered_judge 4.15 | median_s 16.73
+FINAL-ARM arm rag_naive@nogold | n 184 | judge 3.563 | lo 3.375 | hi 3.752 | dom_education 4.02 | dom_encyclopedia 2.79 | dom_health 3.43 | abstain_pct 0.0 | confident_wrong_pct 15.8 | answered_judge 3.563 | median_s 7.17
+FINAL-ARM arm agent_noverify@nogold | n 184 | judge 3.33 | lo 3.1 | hi 3.553 | dom_education 3.96 | dom_encyclopedia 2.77 | dom_health 3.01 | abstain_pct 9.2 | confident_wrong_pct 21.7 | answered_judge 3.481 | median_s 16.38
+FINAL-ARM arm agent_full@nogold | n 184 | judge 2.752 | lo 2.54 | hi 2.966 | dom_education 2.79 | dom_encyclopedia 2.25 | dom_health 2.86 | abstain_pct 26.1 | confident_wrong_pct 23.9 | answered_judge 3.1 | median_s 20.39
+FINAL-PAIR rag_naive - closed: +1.39 [+1.16, +1.62] n=184 p_holm=0.0000 W/T/L 134/24/26
+FINAL-PAIR agent_full - closed: +0.89 [+0.62, +1.17] n=184 p_holm=0.0000 W/T/L 122/20/42
+FINAL-PAIR closed - closed_tt_nllb: +0.20 [-0.03, +0.44] n=184 p_holm=0.2475 W/T/L 86/28/70
+FINAL-PAIR closed - closed_tt_self: -0.29 [-0.47, -0.11] n=184 p_holm=0.0240 W/T/L 58/36/90
+FINAL-PAIR rag_naive - rag_tt_nllb: +1.19 [+0.96, +1.43] n=184 p_holm=0.0000 W/T/L 128/27/29
+FINAL-PAIR rag_naive - rag_tt_self: +0.58 [+0.39, +0.78] n=184 p_holm=0.0000 W/T/L 96/54/34
+FINAL-PAIR rag_tt_self - rag_tt_nllb: +0.61 [+0.37, +0.85] n=184 p_holm=0.0000 W/T/L 100/36/48
+FINAL-PAIR agent_noverify - rag_naive: -0.11 [-0.30, +0.08] n=184 p_holm=0.5220 W/T/L 49/85/50
+FINAL-PAIR agent_full - agent_noverify: -0.39 [-0.57, -0.20] n=184 p_holm=0.0000 W/T/L 36/70/78
+FINAL-PAIR agent_full - rag_naive: -0.50 [-0.70, -0.31] n=184 p_holm=0.0000 W/T/L 42/63/79
+FINAL-PAIR closed@noisy - closed: -0.29 [-0.51, -0.10] n=184 p_holm=0.0240 W/T/L 65/31/88
+FINAL-PAIR rag_naive@noisy - rag_naive: -0.21 [-0.39, -0.04] n=184 p_holm=0.0660 W/T/L 42/83/59
+FINAL-PAIR agent_noverify@noisy - agent_noverify: -0.21 [-0.42, +0.00] n=184 p_holm=0.1800 W/T/L 49/65/70
+FINAL-PAIR agent_noverify@noisy - rag_naive@noisy: -0.11 [-0.32, +0.09] n=184 p_holm=0.5220 W/T/L 58/66/60
+FINAL-PAIR rag_naive@nogold - closed: +0.57 [+0.34, +0.80] n=184 p_holm=0.0000 W/T/L 101/26/57
+FINAL-PAIR agent_noverify@nogold - rag_naive@nogold: -0.23 [-0.43, -0.04] n=184 p_holm=0.0850 W/T/L 55/57/72
+FINAL-PAIR agent_full@nogold - agent_noverify@nogold: -0.58 [-0.80, -0.35] n=184 p_holm=0.0045 W/T/L 50/42/92
+FINAL-PAIR rag_naive@nogold - rag_naive: -0.82 [-1.03, -0.60] n=184 p_holm=0.0000 W/T/L 34/43/107
+DONE (no human section)
+DIAG v5 rag_naive abstains 1/316; retried echoes 4
+STATUS: PASS

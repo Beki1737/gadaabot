@@ -1,0 +1,5 @@
+a	b	n	diff	lo	hi	p	p_holm
+rag_naive	closed	184	1.492	1.314	1.673	0.0	0.0
+agent_noverify	rag_naive	184	-0.159	-0.277	-0.053	0.0035	0.0035
+agent_full	rag_naive	184	-0.492	-0.638	-0.348	0.0	0.0
+agent_full	agent_noverify	184	-0.332	-0.471	-0.194	0.0	0.0
